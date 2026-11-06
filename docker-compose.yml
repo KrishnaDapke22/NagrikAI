@@ -1,0 +1,51 @@
+﻿version: "3.8"
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: civicai-db
+    environment:
+      POSTGRES_USER: civicai_user
+      POSTGRES_PASSWORD: civicai_password
+      POSTGRES_DB: civicai_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U civicai_user -d civicai_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: civicai-backend
+    environment:
+      - DATABASE_URL=postgresql://civicai_user:civicai_password@db:5432/civicai_db
+      - JWT_SECRET=civicai_super_secret_production_key_2026!
+      - LLM_PROVIDER=local
+      - APP_ENV=production
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ./uploads:/app/uploads
+      - ./models:/app/models
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: civicai-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:

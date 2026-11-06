@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+**/*.pyc
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+*/venv/
+*/env/
+
+# Environment configurations & secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Local databases (contain local runtime data)
+*.db
+*.sqlite
+*.sqlite3
+nagrikai.db
+civicai.db
+
+# Uploaded files at runtime
+uploads/*
+!uploads/.gitkeep
+
+# Frontend build & dependencies
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+frontend/.vite/
+
+# Testing & coverage
+.pytest_cache/
+**/.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs & temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+tmp/
+temp/
+
+# IDE & Editor artifacts
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Operating System artifacts
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini

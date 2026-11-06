@@ -1,0 +1,28 @@
+{
+  "short_name": "NagrikAI",
+  "name": "NagrikAI – Civic Grievance Management Platform",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/favicon.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0F172A",
+  "theme_color": "#0F172A",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "description": "NagrikAI – Your Voice. Your City. Our Responsibility. Privacy-first, intelligent municipal grievance management platform."
+}

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="nagrikGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857" />
+      <stop offset="50%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#0D9488" />
+    </linearGradient>
+    <linearGradient id="amberPin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+  </defs>
+  <!-- Rounded Base Shield -->
+  <rect width="48" height="48" rx="14" fill="url(#nagrikGrad)" />
+  <!-- Civic Location Pin with N Integration -->
+  <path d="M24 8C17.37 8 12 13.37 12 20C12 28.5 24 39 24 39C24 39 36 28.5 36 20C36 13.37 30.63 8 24 8Z" fill="#064E3B" fill-opacity="0.35" />
+  <!-- Stylized Letter N -->
+  <path d="M18 27V15L29 27V15" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Golden Civic Star / Location Node -->
+  <circle cx="29" cy="15" r="3.2" fill="url(#amberPin)" stroke="#FFFFFF" stroke-width="1.2" />
+  <circle cx="18" cy="27" r="2.2" fill="#34D399" />
+</svg>

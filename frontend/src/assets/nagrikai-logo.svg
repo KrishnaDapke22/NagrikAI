@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 56" fill="none">
+  <defs>
+    <linearGradient id="brandPinGlow" x1="16" y1="4" x2="36" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#2563EB" />
+    </linearGradient>
+    <linearGradient id="brandAccent" x1="16" y1="8" x2="38" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#EA580C" />
+    </linearGradient>
+  </defs>
+
+  <!-- Icon Mark Container -->
+  <g transform="translate(4, 4)">
+    <rect width="48" height="48" rx="12" fill="#0F172A" />
+    <!-- N structure -->
+    <path d="M12 36V14C12 12.6 13.1 11.5 14.5 11.5C15.9 11.5 17 12.6 17 14V36C17 37.4 15.9 38.5 14.5 38.5C13.1 38.5 12 37.4 12 36Z" fill="#3B82F6" />
+    <path d="M31 36V14C31 12.6 32.1 11.5 33.5 11.5C34.9 11.5 36 12.6 36 14V36C36 37.4 34.9 38.5 33.5 38.5C32.1 38.5 31 37.4 31 36Z" fill="#3B82F6" />
+    <path d="M14 13L34 36" stroke="url(#brandAccent)" stroke-width="4.5" stroke-linecap="round" />
+    <!-- Pin beacon -->
+    <circle cx="24" cy="11" r="5" fill="url(#brandPinGlow)" />
+    <circle cx="24" cy="11" r="2.2" fill="#FFFFFF" />
+    <path d="M24 16L24 21" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(62, 10)">
+    <text x="0" y="24" font-family="system-ui, -apple-system, 'Inter', sans-serif" font-weight="900" font-size="22" letter-spacing="-0.5" fill="#0F172A">
+      Nagrik<tspan fill="#2563EB">AI</tspan>
+    </text>
+    <text x="0" y="38" font-family="system-ui, -apple-system, 'Inter', sans-serif" font-weight="600" font-size="8.5" letter-spacing="0.3" fill="#64748B">
+      YOUR VOICE • YOUR CITY • OUR RESPONSIBILITY
+    </text>
+  </g>
+</svg>

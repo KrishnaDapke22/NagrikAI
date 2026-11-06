@@ -1,0 +1,521 @@
+id,text,category,subcategory,sentiment,severity,location,safety_hazard,people_affected,duplicate_count,days_unresolved,priority,actual_resolution_days
+1,Street light near Central Market has been off for 1 days and it is becoming unsafe at night.,Electricity,Street Light,Concerned,HIGH,Central Market,1,5,0,1,HIGH,1.4
+2,"URGENT: No electricity in College Road since yesterday evening, frequent power outages occurring.",Electricity,Power Outage,Negative,HIGH,College Road,0,12,0,1,MEDIUM,1.8
+3,"Sparks coming out of the transformer near Senapati Bapat Road, danger of fire explosion!",Electricity,Transformer,Angry,CRITICAL,Senapati Bapat Road,1,5,1,7,CRITICAL,1.1
+4,URGENT: Electric pole near FC Road is tilted and hanging over pedestrian sidewalk dangerously.,Electricity,Damaged Pole,Concerned,CRITICAL,FC Road,1,500,5,5,CRITICAL,0.6
+5,Loose electric wires dangling from pole near Aundh Circle children are playing nearby.,Electricity,Wiring,Angry,CRITICAL,Aundh Circle,1,5,12,2,CRITICAL,0.9
+6,Voltage fluctuation in Aundh Circle is damaging home appliances like refrigerators and ACs.,Electricity,Low Voltage,Negative,MEDIUM,Aundh Circle,0,500,5,2,HIGH,1.4
+7,High mast light at City Hospital junction is not functioning causing total darkness.,Electricity,Street Light,Concerned,HIGH,City Hospital,1,500,2,1,CRITICAL,1.2
+8,Repeated power cut every afternoon in Aundh Circle for the past week.,Electricity,Power Outage,Negative,MEDIUM,Aundh Circle,0,25,2,5,MEDIUM,1.9
+9,"Streetlight pole rusted completely at the base near City Hospital, might fall in wind.",Electricity,Damaged Pole,Concerned,HIGH,City Hospital,1,50,8,10,CRITICAL,0.7
+10,Open electric meter box on the pavement near Senapati Bapat Road posing shock hazard.,Electricity,Wiring,Angry,CRITICAL,Senapati Bapat Road,1,12,0,4,CRITICAL,1.1
+11,"URGENT: No water supply in Aundh Circle for the last 3 days, residents are struggling.",Water,No Water Supply,Angry,HIGH,Aundh Circle,0,100,5,5,HIGH,1.6
+12,"Huge underground water pipe burst near Swargate Bus Stand, thousands of liters wasted.",Water,Leakage,Concerned,HIGH,Swargate Bus Stand,0,12,2,7,MEDIUM,2.6
+13,"Tap water smells like sewage and looks muddy near Senapati Bapat Road, health hazard!",Water,Contamination,Angry,CRITICAL,Senapati Bapat Road,1,25,2,5,CRITICAL,1.6
+14,"Extremely low water pressure in Shivajinagar Station, water cannot reach first floor tanks.",Water,Low Pressure,Negative,MEDIUM,Shivajinagar Station,0,12,1,9,MEDIUM,2.6
+15,URGENT: Main drinking water pipeline cracked during road work near Camp MG Road.,Water,Pipeline Broken,Concerned,HIGH,Camp MG Road,0,50,12,10,HIGH,1.8
+16,Drinking water is yellowish and contaminated with dirt in Senapati Bapat Road area.,Water,Contamination,Angry,CRITICAL,Senapati Bapat Road,1,100,3,14,CRITICAL,1.4
+17,Drinking water valve leaking constantly near FC Road creating muddy puddle. Kindly look into this promptly.,Water,Leakage,Neutral,LOW,FC Road,0,250,3,2,MEDIUM,2.8
+18,Water supply cut off without any prior notice to residents near Model Colony Park.,Water,No Water Supply,Negative,MEDIUM,Model Colony Park,0,250,2,9,HIGH,1.5
+19,"Sewage line mixing into drinking water supply near Model Colony Park, please test water urgently.",Water,Contamination,Angry,CRITICAL,Model Colony Park,1,100,5,9,CRITICAL,1.2
+20,Water tanker not arriving at scheduled time in Central Market.,Water,No Water Supply,Negative,LOW,Central Market,0,5,2,6,LOW,3.3
+21,Deep pothole near City Hospital is causing severe bike accidents and vehicle damage.,Roads,Pothole,Concerned,HIGH,City Hospital,1,100,1,2,CRITICAL,2.4
+22,URGENT: Entire road stretch near Swargate Bus Stand has broken asphalt and stones scattered everywhere.,Roads,Road Damage,Negative,MEDIUM,Swargate Bus Stand,0,100,8,9,HIGH,4.4
+23,Fallen tree branch blocking two lanes of traffic near Senapati Bapat Road.,Roads,Road Blockage,Concerned,HIGH,Senapati Bapat Road,1,250,5,13,CRITICAL,2.7
+24,URGENT: Missing manhole cover on the road near Karve Nagar is an open death trap for motorists.,Roads,Manhole Cover,Angry,CRITICAL,Karve Nagar,1,12,0,8,CRITICAL,2.6
+25,Illegal unmarked speed breaker near Deccan Gymkhana causes heavy scraping and injuries. Kindly look into this promptly.,Roads,Speed Breaker,Negative,MEDIUM,Deccan Gymkhana,0,250,0,9,MEDIUM,5.2
+26,Huge crater on road after recent rainfall near College Road causing traffic jam.,Roads,Pothole,Concerned,HIGH,College Road,1,50,2,14,CRITICAL,2.7
+27,"Road resurfacing left incomplete near Deccan Gymkhana, gravel flying onto pedestrians.",Roads,Road Damage,Negative,MEDIUM,Deccan Gymkhana,0,12,0,10,MEDIUM,5.1
+28,Open trench dug by telecom company left unfilled on Camp MG Road road for 2 weeks.,Roads,Road Damage,Angry,HIGH,Camp MG Road,1,250,0,6,CRITICAL,2.3
+29,Potholes near FC Road school are dangerous for children crossing.,Roads,Pothole,Concerned,HIGH,FC Road,1,50,1,13,CRITICAL,2.6
+30,"Road caved in near Hinjewadi Phase 1 bridge approach, barrier needed immediately.",Roads,Road Damage,Angry,CRITICAL,Hinjewadi Phase 1,1,500,0,8,CRITICAL,2.3
+31,"URGENT: Garbage not picked up for 4 days near Senapati Bapat Road, terrible stench spreading everywhere.",Sanitation,Garbage Accumulation,Angry,HIGH,Senapati Bapat Road,0,5,2,14,MEDIUM,1.2
+32,Community dustbin overflowing with waste near Swargate Bus Stand and stray cattle feeding on plastic. Kindly look into this promptly.,Sanitation,Overflowing Bin,Negative,MEDIUM,Swargate Bus Stand,0,50,0,8,MEDIUM,1.8
+33,"Dead dog lying on the road corner near Hinjewadi Phase 1, please remove immediately for hygiene.",Sanitation,Dead Animal,Concerned,HIGH,Hinjewadi Phase 1,1,250,12,13,CRITICAL,0.5
+34,Illegal open dumping of commercial construction waste near Hadapsar Flyover park.,Sanitation,Open Dumping,Negative,MEDIUM,Hadapsar Flyover,0,250,5,4,HIGH,0.7
+35,Street sweeping not done for over a week near Deccan Gymkhana residential lane.,Sanitation,Sweeping,Negative,LOW,Deccan Gymkhana,0,100,0,8,MEDIUM,1.7
+36,URGENT: Rotting food waste dumped outside market near City Hospital attracting flies and mosquitoes.,Sanitation,Garbage Accumulation,Angry,HIGH,City Hospital,1,500,2,10,CRITICAL,0.6
+37,Please resolve: sanitation workers burnt trash near deccan gymkhana releasing toxic plastic fumes.,Sanitation,Open Dumping,Angry,HIGH,Deccan Gymkhana,1,5,8,4,CRITICAL,0.8
+38,Garbage bin broken and overturned near Deccan Gymkhana bus stop.,Sanitation,Overflowing Bin,Neutral,LOW,Deccan Gymkhana,0,25,2,9,LOW,1.6
+39,Accumulated garbage blocking pedestrian walkway near Shivajinagar Station.,Sanitation,Garbage Accumulation,Negative,MEDIUM,Shivajinagar Station,0,5,0,11,MEDIUM,1.4
+40,URGENT: Dead animal decomposing in roadside gutter near Deccan Gymkhana unbearable foul smell.,Sanitation,Dead Animal,Angry,CRITICAL,Deccan Gymkhana,1,12,3,2,CRITICAL,0.5
+41,Sewage water overflowing from drain onto main street near JM Road.,Drainage,Drainage Overflow,Angry,HIGH,JM Road,1,500,3,2,CRITICAL,1.6
+42,Stormwater drain completely choked with plastic bottles near Karve Nagar.,Drainage,Blocked Gutter,Concerned,MEDIUM,Karve Nagar,0,5,1,1,LOW,3.6
+43,"Waterlogging and flooding on road near Central Market after moderate rain, knee-deep water.",Drainage,Stormwater Flooding,Angry,HIGH,Central Market,1,250,5,12,CRITICAL,1.3
+44,Black stagnant sewage water standing in open ditch near Hinjewadi Phase 1 breeding mosquitoes.,Drainage,Sewage Stagnation,Negative,MEDIUM,Hinjewadi Phase 1,1,5,8,9,CRITICAL,1.8
+45,Please resolve: underground sewer line choked and backflowing into ground floor residences near college road.,Drainage,Drainage Overflow,Angry,CRITICAL,College Road,1,25,1,1,CRITICAL,1.7
+46,"Please resolve: drain grate missing near senapati bapat road, people could step into the gutter at night.",Drainage,Blocked Gutter,Concerned,HIGH,Senapati Bapat Road,1,5,1,12,HIGH,2.3
+47,Rainwater entering shops near JM Road because roadside culvert is blocked. Kindly look into this promptly.,Drainage,Stormwater Flooding,Angry,HIGH,JM Road,0,25,0,10,MEDIUM,3.3
+48,Please resolve: foul sewer smell coming from uncleaned drainage channel near baner chowk.,Drainage,Sewage Stagnation,Negative,LOW,Baner Chowk,0,500,8,11,HIGH,2.6
+49,Drain cleaning vehicle dumped sludge on roadside near Shivajinagar Station and left without clearing.,Drainage,Sewage Stagnation,Negative,MEDIUM,Shivajinagar Station,0,50,0,4,MEDIUM,2.7
+50,Open stormwater nullah overflowing into neighborhood near FC Road.,Drainage,Drainage Overflow,Angry,CRITICAL,FC Road,1,500,2,13,CRITICAL,1.3
+51,Traffic signal light stuck on red in all 4 directions near Central Market chowk.,Traffic,Signal Malfunction,Angry,HIGH,Central Market,1,500,12,7,CRITICAL,1.0
+52,URGENT: Commercial trucks parked illegally on both sides of Kothrud Depot narrowing the road.,Traffic,Illegal Parking,Negative,MEDIUM,Kothrud Depot,0,12,8,4,MEDIUM,2.0
+53,Severe traffic jam at City Hospital junction due to faulty timer on traffic signal.,Traffic,Traffic Congestion,Negative,MEDIUM,City Hospital,0,500,5,13,HIGH,2.0
+54,URGENT: Pedestrian crossing sign damaged and turned upside down near Central Market.,Traffic,Signage,Neutral,LOW,Central Market,0,25,0,5,LOW,2.4
+55,Roadside vendors encroaching onto roadway near Camp MG Road station causing bottlenecks.,Traffic,Encroachment,Negative,MEDIUM,Camp MG Road,0,100,0,6,MEDIUM,2.1
+56,Blinkers not functioning at blind curve near Deccan Gymkhana risk of high-speed collision. Kindly look into this promptly.,Traffic,Signal Malfunction,Concerned,HIGH,Deccan Gymkhana,1,500,2,4,CRITICAL,1.0
+57,Auto-rickshaws blocking bus bay near City Hospital creating traffic deadlock.,Traffic,Illegal Parking,Negative,LOW,City Hospital,0,5,3,11,LOW,2.7
+58,"No one-way signage near Camp MG Road, vehicles driving wrong way creating danger.",Traffic,Signage,Concerned,HIGH,Camp MG Road,1,50,8,6,CRITICAL,1.2
+59,Traffic light pole hit by car and tilted precariously near Model Colony Park.,Traffic,Signal Malfunction,Concerned,HIGH,Model Colony Park,1,25,3,10,CRITICAL,0.8
+60,Extreme gridlock near Deccan Gymkhana flyover during peak office rush hour.,Traffic,Traffic Congestion,Negative,MEDIUM,Deccan Gymkhana,0,12,12,10,MEDIUM,2.4
+61,URGENT: Pack of aggressive stray dogs chasing two-wheelers and biting pedestrians near Model Colony Park.,Public Safety,Stray Animals,Angry,CRITICAL,Model Colony Park,1,100,5,11,CRITICAL,0.5
+62,Dilapidated balcony of abandoned building near Kothrud Depot is crumbling onto sidewalk.,Public Safety,Unsafe Structure,Concerned,CRITICAL,Kothrud Depot,1,5,2,11,CRITICAL,1.0
+63,Large banyan tree branch cracked and leaning dangerously over Koregaon Park Lane 5 school.,Public Safety,Fallen Tree,Concerned,CRITICAL,Koregaon Park Lane 5,1,100,2,14,CRITICAL,0.8
+64,Please resolve: deep uncovered excavation pit without barricades or warning lamps near aundh circle.,Public Safety,Open Trench,Angry,CRITICAL,Aundh Circle,1,250,0,8,CRITICAL,0.9
+65,Children playground equipment broken with sharp rusted metal edges in Central Market park.,Public Safety,Hazard,Concerned,HIGH,Central Market,1,100,12,13,CRITICAL,0.5
+66,URGENT: Stray dog menace outside hospital near Kothrud Depot patients and attendants scared.,Public Safety,Stray Animals,Concerned,HIGH,Kothrud Depot,1,12,12,14,CRITICAL,0.7
+67,"Old boundary wall leaning toward road near Senapati Bapat Road, risk of collapse.",Public Safety,Unsafe Structure,Concerned,HIGH,Senapati Bapat Road,1,500,8,10,CRITICAL,0.9
+68,Dry tree caught fire near Senapati Bapat Road power cables.,Public Safety,Hazard,Angry,CRITICAL,Senapati Bapat Road,1,25,2,8,CRITICAL,0.9
+69,Rabid animal spotted roaming near Hinjewadi Phase 1 market square.,Public Safety,Stray Animals,Angry,CRITICAL,Hinjewadi Phase 1,1,50,0,13,CRITICAL,0.8
+70,Open construction scaffolding collapsing onto street near Kothrud Depot. Kindly look into this promptly.,Public Safety,Unsafe Structure,Angry,CRITICAL,Kothrud Depot,1,12,2,5,CRITICAL,0.5
+71,Loud commercial loudspeakers playing past midnight near Shivajinagar Station residential area.,General Administration,Noise Pollution,Angry,MEDIUM,Shivajinagar Station,0,50,8,12,HIGH,2.8
+72,Public park walking track damaged and benches broken near Camp MG Road.,General Administration,Park Maintenance,Neutral,LOW,Camp MG Road,0,500,8,7,HIGH,3.1
+73,Public toilet locked and out of service near JM Road market.,General Administration,Civic Facility,Negative,MEDIUM,JM Road,0,50,2,5,MEDIUM,4.2
+74,Illegal billboard erected without permission blocking view near Hinjewadi Phase 1.,General Administration,Public Nuisance,Neutral,LOW,Hinjewadi Phase 1,0,500,8,7,HIGH,3.3
+75,Construction work operating heavy drilling machines at 2 AM near Viman Nagar Square hospital.,General Administration,Noise Pollution,Angry,HIGH,Viman Nagar Square,1,100,0,3,CRITICAL,1.8
+76,Drinking water fountain in municipal park near Camp MG Road is broken and dry.,General Administration,Civic Facility,Neutral,LOW,Camp MG Road,0,25,2,3,LOW,5.2
+77,Open smoking and anti-social gathering in abandoned booth near FC Road.,General Administration,Public Nuisance,Concerned,MEDIUM,FC Road,0,50,3,13,MEDIUM,4.5
+78,Please resolve: community hall booking system not working at swargate bus stand ward office.,General Administration,Civic Facility,Neutral,LOW,Swargate Bus Stand,0,25,2,1,LOW,5.4
+79,URGENT: Overgrown bushes encroaching sidewalk near College Road public library.,General Administration,Park Maintenance,Neutral,LOW,College Road,0,12,2,13,LOW,5.5
+80,High decibel industrial generator running in quiet residential zone of Koregaon Park Lane 5.,General Administration,Noise Pollution,Angry,HIGH,Koregaon Park Lane 5,0,12,12,3,HIGH,3.3
+81,Street light near JM Road has been off for 3 days and it is becoming unsafe at night.,Electricity,Street Light,Concerned,HIGH,JM Road,1,500,1,3,CRITICAL,1.3
+82,"URGENT: No electricity in Central Market since yesterday evening, frequent power outages occurring.",Electricity,Power Outage,Negative,HIGH,Central Market,0,25,8,10,HIGH,1.3
+83,"Sparks coming out of the transformer near Baner Chowk, danger of fire explosion!",Electricity,Transformer,Angry,CRITICAL,Baner Chowk,1,250,3,2,CRITICAL,1.2
+84,URGENT: Electric pole near Koregaon Park Lane 5 is tilted and hanging over pedestrian sidewalk dangerously.,Electricity,Damaged Pole,Concerned,CRITICAL,Koregaon Park Lane 5,1,100,0,13,CRITICAL,0.8
+85,Loose electric wires dangling from pole near Camp MG Road children are playing nearby.,Electricity,Wiring,Angry,CRITICAL,Camp MG Road,1,500,8,11,CRITICAL,1.2
+86,Voltage fluctuation in Central Market is damaging home appliances like refrigerators and ACs.,Electricity,Low Voltage,Negative,MEDIUM,Central Market,0,250,1,7,MEDIUM,1.7
+87,High mast light at Karve Nagar junction is not functioning causing total darkness.,Electricity,Street Light,Concerned,HIGH,Karve Nagar,1,50,12,11,CRITICAL,0.8
+88,Repeated power cut every afternoon in Deccan Gymkhana for the past week.,Electricity,Power Outage,Negative,MEDIUM,Deccan Gymkhana,0,25,12,5,MEDIUM,1.6
+89,"Streetlight pole rusted completely at the base near Viman Nagar Square, might fall in wind. Kindly look into this promptly.",Electricity,Damaged Pole,Concerned,HIGH,Viman Nagar Square,1,500,5,10,CRITICAL,0.6
+90,Open electric meter box on the pavement near Baner Chowk posing shock hazard.,Electricity,Wiring,Angry,CRITICAL,Baner Chowk,1,250,3,6,CRITICAL,0.9
+91,"URGENT: No water supply in Karve Nagar for the last 3 days, residents are struggling.",Water,No Water Supply,Angry,HIGH,Karve Nagar,0,250,8,4,HIGH,1.8
+92,"Huge underground water pipe burst near Kothrud Depot, thousands of liters wasted.",Water,Leakage,Concerned,HIGH,Kothrud Depot,0,5,0,12,MEDIUM,2.2
+93,"Tap water smells like sewage and looks muddy near Aundh Circle, health hazard!",Water,Contamination,Angry,CRITICAL,Aundh Circle,1,100,5,12,CRITICAL,1.1
+94,"Extremely low water pressure in Senapati Bapat Road, water cannot reach first floor tanks.",Water,Low Pressure,Negative,MEDIUM,Senapati Bapat Road,0,12,0,6,MEDIUM,2.6
+95,Main drinking water pipeline cracked during road work near FC Road.,Water,Pipeline Broken,Concerned,HIGH,FC Road,0,12,2,2,MEDIUM,2.6
+96,Drinking water is yellowish and contaminated with dirt in Hinjewadi Phase 1 area.,Water,Contamination,Angry,CRITICAL,Hinjewadi Phase 1,1,5,2,12,CRITICAL,1.0
+97,Drinking water valve leaking constantly near JM Road creating muddy puddle.,Water,Leakage,Neutral,LOW,JM Road,0,5,0,3,LOW,3.0
+98,Water supply cut off without any prior notice to residents near Shivajinagar Station.,Water,No Water Supply,Negative,MEDIUM,Shivajinagar Station,0,100,3,11,MEDIUM,2.4
+99,"URGENT: Sewage line mixing into drinking water supply near Viman Nagar Square, please test water urgently.",Water,Contamination,Angry,CRITICAL,Viman Nagar Square,1,5,3,6,CRITICAL,1.6
+100,Water tanker not arriving at scheduled time in Swargate Bus Stand. Kindly look into this promptly.,Water,No Water Supply,Negative,LOW,Swargate Bus Stand,0,250,0,2,LOW,2.7
+101,URGENT: Deep pothole near Deccan Gymkhana is causing severe bike accidents and vehicle damage.,Roads,Pothole,Concerned,HIGH,Deccan Gymkhana,1,12,0,5,HIGH,4.1
+102,Entire road stretch near Camp MG Road has broken asphalt and stones scattered everywhere.,Roads,Road Damage,Negative,MEDIUM,Camp MG Road,0,50,12,10,HIGH,4.4
+103,Fallen tree branch blocking two lanes of traffic near Hadapsar Flyover.,Roads,Road Blockage,Concerned,HIGH,Hadapsar Flyover,1,5,0,14,HIGH,4.4
+104,Missing manhole cover on the road near Baner Chowk is an open death trap for motorists.,Roads,Manhole Cover,Angry,CRITICAL,Baner Chowk,1,12,0,11,CRITICAL,2.4
+105,Illegal unmarked speed breaker near Camp MG Road causes heavy scraping and injuries. Kindly look into this promptly.,Roads,Speed Breaker,Negative,MEDIUM,Camp MG Road,0,25,3,8,MEDIUM,5.6
+106,Huge crater on road after recent rainfall near Viman Nagar Square causing traffic jam.,Roads,Pothole,Concerned,HIGH,Viman Nagar Square,1,250,2,2,CRITICAL,2.6
+107,"Road resurfacing left incomplete near Senapati Bapat Road, gravel flying onto pedestrians.",Roads,Road Damage,Negative,MEDIUM,Senapati Bapat Road,0,5,0,4,LOW,6.5
+108,Open trench dug by telecom company left unfilled on Hadapsar Flyover road for 2 weeks.,Roads,Road Damage,Angry,HIGH,Hadapsar Flyover,1,5,12,10,CRITICAL,2.9
+109,Potholes near Aundh Circle school are dangerous for children crossing. Kindly look into this promptly.,Roads,Pothole,Concerned,HIGH,Aundh Circle,1,5,8,5,CRITICAL,2.9
+110,"URGENT: Road caved in near Koregaon Park Lane 5 bridge approach, barrier needed immediately.",Roads,Road Damage,Angry,CRITICAL,Koregaon Park Lane 5,1,12,0,5,CRITICAL,3.1
+111,"URGENT: Garbage not picked up for 4 days near Hinjewadi Phase 1, terrible stench spreading everywhere.",Sanitation,Garbage Accumulation,Angry,HIGH,Hinjewadi Phase 1,0,500,1,10,HIGH,1.1
+112,URGENT: Community dustbin overflowing with waste near Viman Nagar Square and stray cattle feeding on plastic.,Sanitation,Overflowing Bin,Negative,MEDIUM,Viman Nagar Square,0,100,8,5,HIGH,1.2
+113,"Dead dog lying on the road corner near Swargate Bus Stand, please remove immediately for hygiene.",Sanitation,Dead Animal,Concerned,HIGH,Swargate Bus Stand,1,5,1,2,HIGH,0.9
+114,Illegal open dumping of commercial construction waste near Swargate Bus Stand park.,Sanitation,Open Dumping,Negative,MEDIUM,Swargate Bus Stand,0,5,12,5,MEDIUM,1.1
+115,URGENT: Street sweeping not done for over a week near Hinjewadi Phase 1 residential lane.,Sanitation,Sweeping,Negative,LOW,Hinjewadi Phase 1,0,500,8,6,HIGH,1.4
+116,Rotting food waste dumped outside market near Wakad Bridge attracting flies and mosquitoes. Kindly look into this promptly.,Sanitation,Garbage Accumulation,Angry,HIGH,Wakad Bridge,1,100,5,11,CRITICAL,0.8
+117,Please resolve: sanitation workers burnt trash near swargate bus stand releasing toxic plastic fumes.,Sanitation,Open Dumping,Angry,HIGH,Swargate Bus Stand,1,25,1,11,CRITICAL,1.1
+118,Please resolve: garbage bin broken and overturned near viman nagar square bus stop.,Sanitation,Overflowing Bin,Neutral,LOW,Viman Nagar Square,0,250,2,12,MEDIUM,1.6
+119,URGENT: Accumulated garbage blocking pedestrian walkway near Hadapsar Flyover.,Sanitation,Garbage Accumulation,Negative,MEDIUM,Hadapsar Flyover,0,50,0,9,MEDIUM,1.2
+120,Dead animal decomposing in roadside gutter near Central Market unbearable foul smell.,Sanitation,Dead Animal,Angry,CRITICAL,Central Market,1,250,3,8,CRITICAL,0.7
+121,Sewage water overflowing from drain onto main street near Hinjewadi Phase 1.,Drainage,Drainage Overflow,Angry,HIGH,Hinjewadi Phase 1,1,100,1,7,CRITICAL,1.4
+122,Please resolve: stormwater drain completely choked with plastic bottles near koregaon park lane 5.,Drainage,Blocked Gutter,Concerned,MEDIUM,Koregaon Park Lane 5,0,5,3,9,MEDIUM,3.2
+123,"Waterlogging and flooding on road near Camp MG Road after moderate rain, knee-deep water.",Drainage,Stormwater Flooding,Angry,HIGH,Camp MG Road,1,25,3,6,CRITICAL,1.8
+124,Please resolve: black stagnant sewage water standing in open ditch near deccan gymkhana breeding mosquitoes.,Drainage,Sewage Stagnation,Negative,MEDIUM,Deccan Gymkhana,1,100,12,11,CRITICAL,1.4
+125,Underground sewer line choked and backflowing into ground floor residences near Senapati Bapat Road.,Drainage,Drainage Overflow,Angry,CRITICAL,Senapati Bapat Road,1,12,2,13,CRITICAL,1.6
+126,"Please resolve: drain grate missing near kothrud depot, people could step into the gutter at night.",Drainage,Blocked Gutter,Concerned,HIGH,Kothrud Depot,1,250,12,14,CRITICAL,1.7
+127,Rainwater entering shops near Aundh Circle because roadside culvert is blocked.,Drainage,Stormwater Flooding,Angry,HIGH,Aundh Circle,0,12,12,7,HIGH,2.6
+128,Foul sewer smell coming from uncleaned drainage channel near Shivajinagar Station.,Drainage,Sewage Stagnation,Negative,LOW,Shivajinagar Station,0,500,12,9,HIGH,1.9
+129,Drain cleaning vehicle dumped sludge on roadside near Viman Nagar Square and left without clearing.,Drainage,Sewage Stagnation,Negative,MEDIUM,Viman Nagar Square,0,12,0,1,LOW,3.7
+130,Open stormwater nullah overflowing into neighborhood near Hinjewadi Phase 1. Kindly look into this promptly.,Drainage,Drainage Overflow,Angry,CRITICAL,Hinjewadi Phase 1,1,25,8,6,CRITICAL,1.9
+131,Traffic signal light stuck on red in all 4 directions near Swargate Bus Stand chowk.,Traffic,Signal Malfunction,Angry,HIGH,Swargate Bus Stand,1,250,3,14,CRITICAL,1.5
+132,Commercial trucks parked illegally on both sides of City Hospital narrowing the road.,Traffic,Illegal Parking,Negative,MEDIUM,City Hospital,0,5,12,7,MEDIUM,1.9
+133,URGENT: Severe traffic jam at Hadapsar Flyover junction due to faulty timer on traffic signal.,Traffic,Traffic Congestion,Negative,MEDIUM,Hadapsar Flyover,0,500,0,1,MEDIUM,2.0
+134,URGENT: Pedestrian crossing sign damaged and turned upside down near JM Road.,Traffic,Signage,Neutral,LOW,JM Road,0,100,8,7,MEDIUM,2.2
+135,URGENT: Roadside vendors encroaching onto roadway near Model Colony Park station causing bottlenecks.,Traffic,Encroachment,Negative,MEDIUM,Model Colony Park,0,100,8,3,HIGH,1.7
+136,Please resolve: blinkers not functioning at blind curve near kothrud depot risk of high-speed collision.,Traffic,Signal Malfunction,Concerned,HIGH,Kothrud Depot,1,50,3,8,CRITICAL,1.0
+137,Auto-rickshaws blocking bus bay near Wakad Bridge creating traffic deadlock.,Traffic,Illegal Parking,Negative,LOW,Wakad Bridge,0,5,12,13,MEDIUM,2.5
+138,"No one-way signage near Deccan Gymkhana, vehicles driving wrong way creating danger.",Traffic,Signage,Concerned,HIGH,Deccan Gymkhana,1,500,3,5,CRITICAL,0.8
+139,Traffic light pole hit by car and tilted precariously near Aundh Circle.,Traffic,Signal Malfunction,Concerned,HIGH,Aundh Circle,1,100,3,14,CRITICAL,1.5
+140,Extreme gridlock near Hadapsar Flyover flyover during peak office rush hour.,Traffic,Traffic Congestion,Negative,MEDIUM,Hadapsar Flyover,0,100,0,1,MEDIUM,2.5
+141,Pack of aggressive stray dogs chasing two-wheelers and biting pedestrians near Swargate Bus Stand.,Public Safety,Stray Animals,Angry,CRITICAL,Swargate Bus Stand,1,100,5,14,CRITICAL,0.5
+142,Dilapidated balcony of abandoned building near Baner Chowk is crumbling onto sidewalk.,Public Safety,Unsafe Structure,Concerned,CRITICAL,Baner Chowk,1,250,1,10,CRITICAL,0.7
+143,Please resolve: large banyan tree branch cracked and leaning dangerously over college road school.,Public Safety,Fallen Tree,Concerned,CRITICAL,College Road,1,25,1,5,CRITICAL,0.5
+144,Deep uncovered excavation pit without barricades or warning lamps near Hadapsar Flyover.,Public Safety,Open Trench,Angry,CRITICAL,Hadapsar Flyover,1,100,5,6,CRITICAL,0.6
+145,URGENT: Children playground equipment broken with sharp rusted metal edges in Hinjewadi Phase 1 park.,Public Safety,Hazard,Concerned,HIGH,Hinjewadi Phase 1,1,500,12,14,CRITICAL,1.0
+146,Stray dog menace outside hospital near Hadapsar Flyover patients and attendants scared.,Public Safety,Stray Animals,Concerned,HIGH,Hadapsar Flyover,1,5,1,12,HIGH,1.1
+147,"Old boundary wall leaning toward road near Kothrud Depot, risk of collapse.",Public Safety,Unsafe Structure,Concerned,HIGH,Kothrud Depot,1,500,5,14,CRITICAL,0.5
+148,Please resolve: dry tree caught fire near aundh circle power cables.,Public Safety,Hazard,Angry,CRITICAL,Aundh Circle,1,25,3,1,CRITICAL,0.7
+149,Rabid animal spotted roaming near JM Road market square.,Public Safety,Stray Animals,Angry,CRITICAL,JM Road,1,100,5,2,CRITICAL,0.9
+150,URGENT: Open construction scaffolding collapsing onto street near Kothrud Depot.,Public Safety,Unsafe Structure,Angry,CRITICAL,Kothrud Depot,1,500,12,11,CRITICAL,0.9
+151,Please resolve: loud commercial loudspeakers playing past midnight near hadapsar flyover residential area.,General Administration,Noise Pollution,Angry,MEDIUM,Hadapsar Flyover,0,5,3,11,MEDIUM,4.6
+152,Public park walking track damaged and benches broken near Central Market.,General Administration,Park Maintenance,Neutral,LOW,Central Market,0,25,8,2,MEDIUM,4.3
+153,Public toilet locked and out of service near Shivajinagar Station market.,General Administration,Civic Facility,Negative,MEDIUM,Shivajinagar Station,0,25,0,7,MEDIUM,4.4
+154,Illegal billboard erected without permission blocking view near Baner Chowk.,General Administration,Public Nuisance,Neutral,LOW,Baner Chowk,0,250,5,8,HIGH,3.2
+155,Construction work operating heavy drilling machines at 2 AM near JM Road hospital.,General Administration,Noise Pollution,Angry,HIGH,JM Road,1,500,12,1,CRITICAL,1.8
+156,Drinking water fountain in municipal park near Baner Chowk is broken and dry. Kindly look into this promptly.,General Administration,Civic Facility,Neutral,LOW,Baner Chowk,0,25,2,11,LOW,5.6
+157,URGENT: Open smoking and anti-social gathering in abandoned booth near Deccan Gymkhana.,General Administration,Public Nuisance,Concerned,MEDIUM,Deccan Gymkhana,0,500,2,4,MEDIUM,4.3
+158,Community hall booking system not working at Kothrud Depot ward office.,General Administration,Civic Facility,Neutral,LOW,Kothrud Depot,0,25,1,6,LOW,5.6
+159,Please resolve: overgrown bushes encroaching sidewalk near senapati bapat road public library.,General Administration,Park Maintenance,Neutral,LOW,Senapati Bapat Road,0,500,0,5,MEDIUM,3.9
+160,High decibel industrial generator running in quiet residential zone of JM Road. Kindly look into this promptly.,General Administration,Noise Pollution,Angry,HIGH,JM Road,0,25,0,13,MEDIUM,3.9
+161,URGENT: Street light near Camp MG Road has been off for 9 days and it is becoming unsafe at night.,Electricity,Street Light,Concerned,HIGH,Camp MG Road,1,5,12,9,CRITICAL,0.9
+162,"No electricity in JM Road since yesterday evening, frequent power outages occurring.",Electricity,Power Outage,Negative,HIGH,JM Road,0,100,0,9,HIGH,1.5
+163,"Sparks coming out of the transformer near Karve Nagar, danger of fire explosion! Kindly look into this promptly.",Electricity,Transformer,Angry,CRITICAL,Karve Nagar,1,50,8,5,CRITICAL,0.8
+164,Electric pole near Central Market is tilted and hanging over pedestrian sidewalk dangerously.,Electricity,Damaged Pole,Concerned,CRITICAL,Central Market,1,25,1,8,CRITICAL,0.6
+165,Loose electric wires dangling from pole near Hinjewadi Phase 1 children are playing nearby.,Electricity,Wiring,Angry,CRITICAL,Hinjewadi Phase 1,1,100,3,10,CRITICAL,0.9
+166,URGENT: Voltage fluctuation in Koregaon Park Lane 5 is damaging home appliances like refrigerators and ACs.,Electricity,Low Voltage,Negative,MEDIUM,Koregaon Park Lane 5,0,250,0,7,MEDIUM,2.1
+167,High mast light at Senapati Bapat Road junction is not functioning causing total darkness.,Electricity,Street Light,Concerned,HIGH,Senapati Bapat Road,1,50,5,12,CRITICAL,1.2
+168,Repeated power cut every afternoon in Aundh Circle for the past week.,Electricity,Power Outage,Negative,MEDIUM,Aundh Circle,0,25,5,7,MEDIUM,2.2
+169,"URGENT: Streetlight pole rusted completely at the base near Swargate Bus Stand, might fall in wind.",Electricity,Damaged Pole,Concerned,HIGH,Swargate Bus Stand,1,5,0,2,HIGH,1.3
+170,URGENT: Open electric meter box on the pavement near JM Road posing shock hazard.,Electricity,Wiring,Angry,CRITICAL,JM Road,1,5,5,13,CRITICAL,1.0
+171,"No water supply in Camp MG Road for the last 3 days, residents are struggling.",Water,No Water Supply,Angry,HIGH,Camp MG Road,0,250,0,6,HIGH,2.2
+172,"Huge underground water pipe burst near Koregaon Park Lane 5, thousands of liters wasted.",Water,Leakage,Concerned,HIGH,Koregaon Park Lane 5,0,250,12,5,CRITICAL,1.0
+173,"Tap water smells like sewage and looks muddy near Central Market, health hazard!",Water,Contamination,Angry,CRITICAL,Central Market,1,100,2,6,CRITICAL,1.4
+174,"Extremely low water pressure in Senapati Bapat Road, water cannot reach first floor tanks.",Water,Low Pressure,Negative,MEDIUM,Senapati Bapat Road,0,5,3,13,MEDIUM,2.0
+175,Main drinking water pipeline cracked during road work near Hinjewadi Phase 1.,Water,Pipeline Broken,Concerned,HIGH,Hinjewadi Phase 1,0,12,1,12,MEDIUM,2.5
+176,URGENT: Drinking water is yellowish and contaminated with dirt in Aundh Circle area.,Water,Contamination,Angry,CRITICAL,Aundh Circle,1,250,0,2,CRITICAL,0.9
+177,Drinking water valve leaking constantly near Karve Nagar creating muddy puddle.,Water,Leakage,Neutral,LOW,Karve Nagar,0,25,5,4,MEDIUM,2.6
+178,URGENT: Water supply cut off without any prior notice to residents near Deccan Gymkhana.,Water,No Water Supply,Negative,MEDIUM,Deccan Gymkhana,0,5,1,10,MEDIUM,2.1
+179,"Sewage line mixing into drinking water supply near Koregaon Park Lane 5, please test water urgently.",Water,Contamination,Angry,CRITICAL,Koregaon Park Lane 5,1,50,12,1,CRITICAL,1.1
+180,Water tanker not arriving at scheduled time in Baner Chowk.,Water,No Water Supply,Negative,LOW,Baner Chowk,0,250,12,13,HIGH,1.8
+181,Deep pothole near Hadapsar Flyover is causing severe bike accidents and vehicle damage. Kindly look into this promptly.,Roads,Pothole,Concerned,HIGH,Hadapsar Flyover,1,12,3,1,HIGH,4.4
+182,Entire road stretch near Shivajinagar Station has broken asphalt and stones scattered everywhere. Kindly look into this promptly.,Roads,Road Damage,Negative,MEDIUM,Shivajinagar Station,0,250,8,13,HIGH,3.8
+183,Fallen tree branch blocking two lanes of traffic near Aundh Circle.,Roads,Road Blockage,Concerned,HIGH,Aundh Circle,1,500,5,9,CRITICAL,2.4
+184,URGENT: Missing manhole cover on the road near College Road is an open death trap for motorists.,Roads,Manhole Cover,Angry,CRITICAL,College Road,1,5,5,7,CRITICAL,2.8
+185,Illegal unmarked speed breaker near Deccan Gymkhana causes heavy scraping and injuries.,Roads,Speed Breaker,Negative,MEDIUM,Deccan Gymkhana,0,5,5,7,MEDIUM,5.1
+186,Huge crater on road after recent rainfall near Koregaon Park Lane 5 causing traffic jam. Kindly look into this promptly.,Roads,Pothole,Concerned,HIGH,Koregaon Park Lane 5,1,500,0,8,CRITICAL,2.5
+187,"Road resurfacing left incomplete near Deccan Gymkhana, gravel flying onto pedestrians.",Roads,Road Damage,Negative,MEDIUM,Deccan Gymkhana,0,25,2,7,MEDIUM,5.3
+188,Please resolve: open trench dug by telecom company left unfilled on model colony park road for 2 weeks.,Roads,Road Damage,Angry,HIGH,Model Colony Park,1,100,2,2,CRITICAL,3.0
+189,Potholes near JM Road school are dangerous for children crossing.,Roads,Pothole,Concerned,HIGH,JM Road,1,12,0,6,HIGH,3.8
+190,"Road caved in near Baner Chowk bridge approach, barrier needed immediately.",Roads,Road Damage,Angry,CRITICAL,Baner Chowk,1,12,12,3,CRITICAL,2.7
+191,"Garbage not picked up for 4 days near Deccan Gymkhana, terrible stench spreading everywhere.",Sanitation,Garbage Accumulation,Angry,HIGH,Deccan Gymkhana,0,250,5,13,CRITICAL,1.0
+192,Community dustbin overflowing with waste near FC Road and stray cattle feeding on plastic.,Sanitation,Overflowing Bin,Negative,MEDIUM,FC Road,0,500,3,3,HIGH,1.2
+193,"URGENT: Dead dog lying on the road corner near JM Road, please remove immediately for hygiene.",Sanitation,Dead Animal,Concerned,HIGH,JM Road,1,50,12,9,CRITICAL,0.5
+194,Illegal open dumping of commercial construction waste near JM Road park.,Sanitation,Open Dumping,Negative,MEDIUM,JM Road,0,5,8,14,MEDIUM,1.4
+195,Please resolve: street sweeping not done for over a week near senapati bapat road residential lane.,Sanitation,Sweeping,Negative,LOW,Senapati Bapat Road,0,500,2,13,MEDIUM,1.3
+196,URGENT: Rotting food waste dumped outside market near Swargate Bus Stand attracting flies and mosquitoes.,Sanitation,Garbage Accumulation,Angry,HIGH,Swargate Bus Stand,1,5,12,9,CRITICAL,0.5
+197,URGENT: Sanitation workers burnt trash near FC Road releasing toxic plastic fumes.,Sanitation,Open Dumping,Angry,HIGH,FC Road,1,250,1,12,CRITICAL,0.5
+198,Garbage bin broken and overturned near Viman Nagar Square bus stop.,Sanitation,Overflowing Bin,Neutral,LOW,Viman Nagar Square,0,25,8,8,MEDIUM,1.4
+199,Accumulated garbage blocking pedestrian walkway near FC Road.,Sanitation,Garbage Accumulation,Negative,MEDIUM,FC Road,0,5,5,11,MEDIUM,1.1
+200,Dead animal decomposing in roadside gutter near Aundh Circle unbearable foul smell.,Sanitation,Dead Animal,Angry,CRITICAL,Aundh Circle,1,100,1,5,CRITICAL,0.6
+201,URGENT: Sewage water overflowing from drain onto main street near Deccan Gymkhana.,Drainage,Drainage Overflow,Angry,HIGH,Deccan Gymkhana,1,25,3,11,CRITICAL,1.9
+202,Stormwater drain completely choked with plastic bottles near Aundh Circle.,Drainage,Blocked Gutter,Concerned,MEDIUM,Aundh Circle,0,50,5,3,MEDIUM,3.3
+203,"Waterlogging and flooding on road near Karve Nagar after moderate rain, knee-deep water.",Drainage,Stormwater Flooding,Angry,HIGH,Karve Nagar,1,25,3,2,CRITICAL,1.2
+204,Black stagnant sewage water standing in open ditch near Baner Chowk breeding mosquitoes.,Drainage,Sewage Stagnation,Negative,MEDIUM,Baner Chowk,1,12,1,6,HIGH,1.9
+205,Underground sewer line choked and backflowing into ground floor residences near Central Market.,Drainage,Drainage Overflow,Angry,CRITICAL,Central Market,1,5,5,9,CRITICAL,1.8
+206,"Drain grate missing near Koregaon Park Lane 5, people could step into the gutter at night.",Drainage,Blocked Gutter,Concerned,HIGH,Koregaon Park Lane 5,1,250,1,3,CRITICAL,1.7
+207,Rainwater entering shops near College Road because roadside culvert is blocked.,Drainage,Stormwater Flooding,Angry,HIGH,College Road,0,100,3,7,HIGH,2.5
+208,Foul sewer smell coming from uncleaned drainage channel near Viman Nagar Square.,Drainage,Sewage Stagnation,Negative,LOW,Viman Nagar Square,0,50,2,4,LOW,3.6
+209,Drain cleaning vehicle dumped sludge on roadside near Deccan Gymkhana and left without clearing.,Drainage,Sewage Stagnation,Negative,MEDIUM,Deccan Gymkhana,0,100,8,8,HIGH,2.6
+210,Open stormwater nullah overflowing into neighborhood near Baner Chowk. Kindly look into this promptly.,Drainage,Drainage Overflow,Angry,CRITICAL,Baner Chowk,1,50,5,13,CRITICAL,1.5
+211,Traffic signal light stuck on red in all 4 directions near Central Market chowk.,Traffic,Signal Malfunction,Angry,HIGH,Central Market,1,500,1,12,CRITICAL,0.9
+212,Please resolve: commercial trucks parked illegally on both sides of karve nagar narrowing the road.,Traffic,Illegal Parking,Negative,MEDIUM,Karve Nagar,0,12,12,3,MEDIUM,2.5
+213,URGENT: Severe traffic jam at Wakad Bridge junction due to faulty timer on traffic signal.,Traffic,Traffic Congestion,Negative,MEDIUM,Wakad Bridge,0,100,5,7,HIGH,1.4
+214,Pedestrian crossing sign damaged and turned upside down near City Hospital. Kindly look into this promptly.,Traffic,Signage,Neutral,LOW,City Hospital,0,250,5,6,HIGH,1.9
+215,Roadside vendors encroaching onto roadway near Shivajinagar Station station causing bottlenecks.,Traffic,Encroachment,Negative,MEDIUM,Shivajinagar Station,0,12,12,1,MEDIUM,2.1
+216,URGENT: Blinkers not functioning at blind curve near Wakad Bridge risk of high-speed collision.,Traffic,Signal Malfunction,Concerned,HIGH,Wakad Bridge,1,12,1,2,HIGH,1.7
+217,Auto-rickshaws blocking bus bay near Koregaon Park Lane 5 creating traffic deadlock.,Traffic,Illegal Parking,Negative,LOW,Koregaon Park Lane 5,0,5,0,9,LOW,2.5
+218,"URGENT: No one-way signage near Koregaon Park Lane 5, vehicles driving wrong way creating danger.",Traffic,Signage,Concerned,HIGH,Koregaon Park Lane 5,1,500,12,8,CRITICAL,1.2
+219,Traffic light pole hit by car and tilted precariously near Wakad Bridge.,Traffic,Signal Malfunction,Concerned,HIGH,Wakad Bridge,1,50,0,11,CRITICAL,1.2
+220,Extreme gridlock near Kothrud Depot flyover during peak office rush hour. Kindly look into this promptly.,Traffic,Traffic Congestion,Negative,MEDIUM,Kothrud Depot,0,25,0,10,MEDIUM,2.5
+221,Pack of aggressive stray dogs chasing two-wheelers and biting pedestrians near Senapati Bapat Road. Kindly look into this promptly.,Public Safety,Stray Animals,Angry,CRITICAL,Senapati Bapat Road,1,500,12,9,CRITICAL,0.5
+222,Please resolve: dilapidated balcony of abandoned building near aundh circle is crumbling onto sidewalk.,Public Safety,Unsafe Structure,Concerned,CRITICAL,Aundh Circle,1,500,0,6,CRITICAL,0.5
+223,Large banyan tree branch cracked and leaning dangerously over Central Market school.,Public Safety,Fallen Tree,Concerned,CRITICAL,Central Market,1,25,5,13,CRITICAL,0.9
+224,Deep uncovered excavation pit without barricades or warning lamps near Model Colony Park.,Public Safety,Open Trench,Angry,CRITICAL,Model Colony Park,1,250,1,14,CRITICAL,0.8
+225,Children playground equipment broken with sharp rusted metal edges in City Hospital park.,Public Safety,Hazard,Concerned,HIGH,City Hospital,1,5,2,12,CRITICAL,0.9
+226,Stray dog menace outside hospital near FC Road patients and attendants scared.,Public Safety,Stray Animals,Concerned,HIGH,FC Road,1,25,0,5,HIGH,1.1
+227,"Old boundary wall leaning toward road near Baner Chowk, risk of collapse.",Public Safety,Unsafe Structure,Concerned,HIGH,Baner Chowk,1,25,3,5,CRITICAL,0.5
+228,Dry tree caught fire near JM Road power cables.,Public Safety,Hazard,Angry,CRITICAL,JM Road,1,50,5,7,CRITICAL,1.0
+229,Rabid animal spotted roaming near Swargate Bus Stand market square.,Public Safety,Stray Animals,Angry,CRITICAL,Swargate Bus Stand,1,500,0,12,CRITICAL,0.8
+230,Open construction scaffolding collapsing onto street near City Hospital.,Public Safety,Unsafe Structure,Angry,CRITICAL,City Hospital,1,25,0,7,CRITICAL,0.5
+231,Loud commercial loudspeakers playing past midnight near Hadapsar Flyover residential area.,General Administration,Noise Pollution,Angry,MEDIUM,Hadapsar Flyover,0,50,5,5,HIGH,3.1
+232,Public park walking track damaged and benches broken near JM Road.,General Administration,Park Maintenance,Neutral,LOW,JM Road,0,5,0,10,LOW,5.4
+233,Public toilet locked and out of service near Aundh Circle market.,General Administration,Civic Facility,Negative,MEDIUM,Aundh Circle,0,5,1,6,MEDIUM,4.5
+234,URGENT: Illegal billboard erected without permission blocking view near Viman Nagar Square.,General Administration,Public Nuisance,Neutral,LOW,Viman Nagar Square,0,12,5,1,LOW,5.1
+235,Construction work operating heavy drilling machines at 2 AM near Deccan Gymkhana hospital.,General Administration,Noise Pollution,Angry,HIGH,Deccan Gymkhana,1,25,12,1,CRITICAL,2.3
+236,Drinking water fountain in municipal park near Deccan Gymkhana is broken and dry.,General Administration,Civic Facility,Neutral,LOW,Deccan Gymkhana,0,12,0,3,LOW,4.9
+237,Open smoking and anti-social gathering in abandoned booth near Model Colony Park.,General Administration,Public Nuisance,Concerned,MEDIUM,Model Colony Park,0,500,3,8,HIGH,3.3
+238,Community hall booking system not working at Baner Chowk ward office.,General Administration,Civic Facility,Neutral,LOW,Baner Chowk,0,5,1,10,LOW,5.5
+239,Overgrown bushes encroaching sidewalk near Viman Nagar Square public library. Kindly look into this promptly.,General Administration,Park Maintenance,Neutral,LOW,Viman Nagar Square,0,250,5,3,MEDIUM,4.3
+240,High decibel industrial generator running in quiet residential zone of City Hospital.,General Administration,Noise Pollution,Angry,HIGH,City Hospital,0,250,1,9,HIGH,3.4
+241,URGENT: Street light near Karve Nagar has been off for 4 days and it is becoming unsafe at night.,Electricity,Street Light,Concerned,HIGH,Karve Nagar,1,12,1,4,HIGH,1.1
+242,"No electricity in Swargate Bus Stand since yesterday evening, frequent power outages occurring.",Electricity,Power Outage,Negative,HIGH,Swargate Bus Stand,0,100,1,1,MEDIUM,1.9
+243,"Sparks coming out of the transformer near City Hospital, danger of fire explosion!",Electricity,Transformer,Angry,CRITICAL,City Hospital,1,100,8,2,CRITICAL,1.1
+244,URGENT: Electric pole near Deccan Gymkhana is tilted and hanging over pedestrian sidewalk dangerously.,Electricity,Damaged Pole,Concerned,CRITICAL,Deccan Gymkhana,1,25,0,2,CRITICAL,0.9
+245,URGENT: Loose electric wires dangling from pole near Karve Nagar children are playing nearby.,Electricity,Wiring,Angry,CRITICAL,Karve Nagar,1,500,1,6,CRITICAL,1.1
+246,Voltage fluctuation in Shivajinagar Station is damaging home appliances like refrigerators and ACs.,Electricity,Low Voltage,Negative,MEDIUM,Shivajinagar Station,0,100,1,7,MEDIUM,1.6
+247,High mast light at Model Colony Park junction is not functioning causing total darkness.,Electricity,Street Light,Concerned,HIGH,Model Colony Park,1,100,3,6,CRITICAL,1.2
+248,Repeated power cut every afternoon in Hinjewadi Phase 1 for the past week.,Electricity,Power Outage,Negative,MEDIUM,Hinjewadi Phase 1,0,25,0,4,MEDIUM,1.8
+249,"Streetlight pole rusted completely at the base near Model Colony Park, might fall in wind.",Electricity,Damaged Pole,Concerned,HIGH,Model Colony Park,1,250,5,10,CRITICAL,1.2
+250,Please resolve: open electric meter box on the pavement near deccan gymkhana posing shock hazard.,Electricity,Wiring,Angry,CRITICAL,Deccan Gymkhana,1,5,3,1,CRITICAL,1.0
+251,"Please resolve: no water supply in deccan gymkhana for the last 3 days, residents are struggling.",Water,No Water Supply,Angry,HIGH,Deccan Gymkhana,0,250,3,7,HIGH,1.9
+252,"Huge underground water pipe burst near Hadapsar Flyover, thousands of liters wasted.",Water,Leakage,Concerned,HIGH,Hadapsar Flyover,0,50,0,8,MEDIUM,2.6
+253,"Tap water smells like sewage and looks muddy near Model Colony Park, health hazard!",Water,Contamination,Angry,CRITICAL,Model Colony Park,1,12,5,8,CRITICAL,1.5
+254,"Extremely low water pressure in FC Road, water cannot reach first floor tanks.",Water,Low Pressure,Negative,MEDIUM,FC Road,0,500,5,12,HIGH,1.8
+255,Please resolve: main drinking water pipeline cracked during road work near central market.,Water,Pipeline Broken,Concerned,HIGH,Central Market,0,50,2,6,HIGH,1.5
+256,Drinking water is yellowish and contaminated with dirt in College Road area.,Water,Contamination,Angry,CRITICAL,College Road,1,500,1,5,CRITICAL,1.5
+257,Drinking water valve leaking constantly near Deccan Gymkhana creating muddy puddle.,Water,Leakage,Neutral,LOW,Deccan Gymkhana,0,100,12,12,MEDIUM,2.4
+258,URGENT: Water supply cut off without any prior notice to residents near Hadapsar Flyover.,Water,No Water Supply,Negative,MEDIUM,Hadapsar Flyover,0,50,12,8,HIGH,2.2
+259,"Please resolve: sewage line mixing into drinking water supply near baner chowk, please test water urgently.",Water,Contamination,Angry,CRITICAL,Baner Chowk,1,50,12,10,CRITICAL,1.0
+260,URGENT: Water tanker not arriving at scheduled time in Wakad Bridge.,Water,No Water Supply,Negative,LOW,Wakad Bridge,0,12,3,14,MEDIUM,2.6
+261,URGENT: Deep pothole near Aundh Circle is causing severe bike accidents and vehicle damage.,Roads,Pothole,Concerned,HIGH,Aundh Circle,1,5,2,6,CRITICAL,2.6
+262,Entire road stretch near Hadapsar Flyover has broken asphalt and stones scattered everywhere.,Roads,Road Damage,Negative,MEDIUM,Hadapsar Flyover,0,500,0,2,MEDIUM,5.1
+263,Fallen tree branch blocking two lanes of traffic near Central Market.,Roads,Road Blockage,Concerned,HIGH,Central Market,1,25,1,7,CRITICAL,2.5
+264,Please resolve: missing manhole cover on the road near karve nagar is an open death trap for motorists.,Roads,Manhole Cover,Angry,CRITICAL,Karve Nagar,1,12,5,7,CRITICAL,2.9
+265,URGENT: Illegal unmarked speed breaker near Karve Nagar causes heavy scraping and injuries.,Roads,Speed Breaker,Negative,MEDIUM,Karve Nagar,0,100,1,8,MEDIUM,5.3
+266,URGENT: Huge crater on road after recent rainfall near Koregaon Park Lane 5 causing traffic jam.,Roads,Pothole,Concerned,HIGH,Koregaon Park Lane 5,1,100,3,6,CRITICAL,2.8
+267,"Road resurfacing left incomplete near Karve Nagar, gravel flying onto pedestrians.",Roads,Road Damage,Negative,MEDIUM,Karve Nagar,0,50,0,14,MEDIUM,5.3
+268,Open trench dug by telecom company left unfilled on Central Market road for 2 weeks.,Roads,Road Damage,Angry,HIGH,Central Market,1,250,0,7,CRITICAL,2.8
+269,Potholes near Hinjewadi Phase 1 school are dangerous for children crossing.,Roads,Pothole,Concerned,HIGH,Hinjewadi Phase 1,1,250,0,11,CRITICAL,2.8
+270,"Road caved in near Model Colony Park bridge approach, barrier needed immediately.",Roads,Road Damage,Angry,CRITICAL,Model Colony Park,1,12,2,9,CRITICAL,2.3
+271,"URGENT: Garbage not picked up for 4 days near Central Market, terrible stench spreading everywhere.",Sanitation,Garbage Accumulation,Angry,HIGH,Central Market,0,25,8,4,HIGH,0.8
+272,Community dustbin overflowing with waste near Baner Chowk and stray cattle feeding on plastic.,Sanitation,Overflowing Bin,Negative,MEDIUM,Baner Chowk,0,500,0,7,MEDIUM,1.6
+273,"Dead dog lying on the road corner near Karve Nagar, please remove immediately for hygiene.",Sanitation,Dead Animal,Concerned,HIGH,Karve Nagar,1,50,5,4,CRITICAL,1.1
+274,Illegal open dumping of commercial construction waste near Viman Nagar Square park.,Sanitation,Open Dumping,Negative,MEDIUM,Viman Nagar Square,0,250,3,9,HIGH,1.2
+275,Street sweeping not done for over a week near Baner Chowk residential lane.,Sanitation,Sweeping,Negative,LOW,Baner Chowk,0,25,3,4,LOW,2.0
+276,Rotting food waste dumped outside market near Swargate Bus Stand attracting flies and mosquitoes.,Sanitation,Garbage Accumulation,Angry,HIGH,Swargate Bus Stand,1,250,3,6,CRITICAL,0.6
+277,Sanitation workers burnt trash near Deccan Gymkhana releasing toxic plastic fumes.,Sanitation,Open Dumping,Angry,HIGH,Deccan Gymkhana,1,25,1,11,CRITICAL,0.6
+278,URGENT: Garbage bin broken and overturned near Hadapsar Flyover bus stop.,Sanitation,Overflowing Bin,Neutral,LOW,Hadapsar Flyover,0,50,3,12,MEDIUM,1.6
+279,Accumulated garbage blocking pedestrian walkway near Baner Chowk.,Sanitation,Garbage Accumulation,Negative,MEDIUM,Baner Chowk,0,25,1,4,MEDIUM,1.1
+280,Dead animal decomposing in roadside gutter near Deccan Gymkhana unbearable foul smell.,Sanitation,Dead Animal,Angry,CRITICAL,Deccan Gymkhana,1,250,2,4,CRITICAL,0.5
+281,Please resolve: sewage water overflowing from drain onto main street near camp mg road.,Drainage,Drainage Overflow,Angry,HIGH,Camp MG Road,1,500,1,6,CRITICAL,1.1
+282,Stormwater drain completely choked with plastic bottles near Senapati Bapat Road.,Drainage,Blocked Gutter,Concerned,MEDIUM,Senapati Bapat Road,0,50,2,3,MEDIUM,3.2
+283,"Please resolve: waterlogging and flooding on road near hadapsar flyover after moderate rain, knee-deep water.",Drainage,Stormwater Flooding,Angry,HIGH,Hadapsar Flyover,1,500,0,6,CRITICAL,1.6
+284,Black stagnant sewage water standing in open ditch near Kothrud Depot breeding mosquitoes. Kindly look into this promptly.,Drainage,Sewage Stagnation,Negative,MEDIUM,Kothrud Depot,1,12,8,9,CRITICAL,1.8
+285,Underground sewer line choked and backflowing into ground floor residences near Model Colony Park.,Drainage,Drainage Overflow,Angry,CRITICAL,Model Colony Park,1,250,3,1,CRITICAL,1.8
+286,"Please resolve: drain grate missing near wakad bridge, people could step into the gutter at night.",Drainage,Blocked Gutter,Concerned,HIGH,Wakad Bridge,1,25,3,5,CRITICAL,1.5
+287,Rainwater entering shops near Senapati Bapat Road because roadside culvert is blocked.,Drainage,Stormwater Flooding,Angry,HIGH,Senapati Bapat Road,0,50,3,9,HIGH,2.0
+288,URGENT: Foul sewer smell coming from uncleaned drainage channel near Central Market.,Drainage,Sewage Stagnation,Negative,LOW,Central Market,0,50,3,6,MEDIUM,3.2
+289,Drain cleaning vehicle dumped sludge on roadside near Wakad Bridge and left without clearing.,Drainage,Sewage Stagnation,Negative,MEDIUM,Wakad Bridge,0,12,1,12,MEDIUM,3.1
+290,Open stormwater nullah overflowing into neighborhood near Aundh Circle.,Drainage,Drainage Overflow,Angry,CRITICAL,Aundh Circle,1,5,1,14,CRITICAL,1.9
+291,Please resolve: traffic signal light stuck on red in all 4 directions near swargate bus stand chowk.,Traffic,Signal Malfunction,Angry,HIGH,Swargate Bus Stand,1,50,2,6,CRITICAL,1.0
+292,Commercial trucks parked illegally on both sides of Hinjewadi Phase 1 narrowing the road. Kindly look into this promptly.,Traffic,Illegal Parking,Negative,MEDIUM,Hinjewadi Phase 1,0,250,5,6,HIGH,1.8
+293,URGENT: Severe traffic jam at College Road junction due to faulty timer on traffic signal.,Traffic,Traffic Congestion,Negative,MEDIUM,College Road,0,25,1,11,MEDIUM,2.1
+294,Pedestrian crossing sign damaged and turned upside down near Karve Nagar.,Traffic,Signage,Neutral,LOW,Karve Nagar,0,25,5,12,MEDIUM,2.3
+295,Roadside vendors encroaching onto roadway near Kothrud Depot station causing bottlenecks.,Traffic,Encroachment,Negative,MEDIUM,Kothrud Depot,0,25,8,3,MEDIUM,2.3
+296,Blinkers not functioning at blind curve near Swargate Bus Stand risk of high-speed collision.,Traffic,Signal Malfunction,Concerned,HIGH,Swargate Bus Stand,1,12,0,13,HIGH,1.6
+297,Auto-rickshaws blocking bus bay near Karve Nagar creating traffic deadlock.,Traffic,Illegal Parking,Negative,LOW,Karve Nagar,0,500,2,12,MEDIUM,2.2
+298,"No one-way signage near Shivajinagar Station, vehicles driving wrong way creating danger.",Traffic,Signage,Concerned,HIGH,Shivajinagar Station,1,12,12,3,CRITICAL,0.8
+299,Traffic light pole hit by car and tilted precariously near Karve Nagar.,Traffic,Signal Malfunction,Concerned,HIGH,Karve Nagar,1,50,0,8,CRITICAL,1.1
+300,URGENT: Extreme gridlock near Hadapsar Flyover flyover during peak office rush hour.,Traffic,Traffic Congestion,Negative,MEDIUM,Hadapsar Flyover,0,25,0,12,MEDIUM,2.4
+301,URGENT: Pack of aggressive stray dogs chasing two-wheelers and biting pedestrians near Deccan Gymkhana.,Public Safety,Stray Animals,Angry,CRITICAL,Deccan Gymkhana,1,25,0,2,CRITICAL,0.6
+302,Dilapidated balcony of abandoned building near College Road is crumbling onto sidewalk.,Public Safety,Unsafe Structure,Concerned,CRITICAL,College Road,1,12,1,2,CRITICAL,0.8
+303,Large banyan tree branch cracked and leaning dangerously over Camp MG Road school.,Public Safety,Fallen Tree,Concerned,CRITICAL,Camp MG Road,1,50,8,6,CRITICAL,0.5
+304,Deep uncovered excavation pit without barricades or warning lamps near Senapati Bapat Road.,Public Safety,Open Trench,Angry,CRITICAL,Senapati Bapat Road,1,100,8,3,CRITICAL,0.6
+305,URGENT: Children playground equipment broken with sharp rusted metal edges in Kothrud Depot park.,Public Safety,Hazard,Concerned,HIGH,Kothrud Depot,1,5,3,14,CRITICAL,0.6
+306,Stray dog menace outside hospital near Senapati Bapat Road patients and attendants scared.,Public Safety,Stray Animals,Concerned,HIGH,Senapati Bapat Road,1,25,1,7,CRITICAL,0.5
+307,"Old boundary wall leaning toward road near Central Market, risk of collapse.",Public Safety,Unsafe Structure,Concerned,HIGH,Central Market,1,5,2,1,HIGH,0.7
+308,URGENT: Dry tree caught fire near Central Market power cables.,Public Safety,Hazard,Angry,CRITICAL,Central Market,1,100,0,10,CRITICAL,0.5
+309,Rabid animal spotted roaming near College Road market square.,Public Safety,Stray Animals,Angry,CRITICAL,College Road,1,500,0,7,CRITICAL,0.5
+310,Open construction scaffolding collapsing onto street near Hadapsar Flyover.,Public Safety,Unsafe Structure,Angry,CRITICAL,Hadapsar Flyover,1,100,5,4,CRITICAL,0.5
+311,Loud commercial loudspeakers playing past midnight near Shivajinagar Station residential area.,General Administration,Noise Pollution,Angry,MEDIUM,Shivajinagar Station,0,100,1,11,MEDIUM,4.3
+312,Public park walking track damaged and benches broken near Camp MG Road.,General Administration,Park Maintenance,Neutral,LOW,Camp MG Road,0,250,8,9,HIGH,3.4
+313,Please resolve: public toilet locked and out of service near fc road market.,General Administration,Civic Facility,Negative,MEDIUM,FC Road,0,50,1,12,MEDIUM,4.4
+314,Illegal billboard erected without permission blocking view near Swargate Bus Stand.,General Administration,Public Nuisance,Neutral,LOW,Swargate Bus Stand,0,500,12,4,MEDIUM,4.5
+315,Construction work operating heavy drilling machines at 2 AM near Senapati Bapat Road hospital.,General Administration,Noise Pollution,Angry,HIGH,Senapati Bapat Road,1,12,3,7,CRITICAL,1.9
+316,Please resolve: drinking water fountain in municipal park near city hospital is broken and dry.,General Administration,Civic Facility,Neutral,LOW,City Hospital,0,250,2,8,MEDIUM,3.8
+317,Please resolve: open smoking and anti-social gathering in abandoned booth near aundh circle.,General Administration,Public Nuisance,Concerned,MEDIUM,Aundh Circle,0,5,2,11,MEDIUM,4.4
+318,Community hall booking system not working at Deccan Gymkhana ward office.,General Administration,Civic Facility,Neutral,LOW,Deccan Gymkhana,0,25,3,12,MEDIUM,4.6
+319,Overgrown bushes encroaching sidewalk near Wakad Bridge public library.,General Administration,Park Maintenance,Neutral,LOW,Wakad Bridge,0,500,12,4,MEDIUM,4.5
+320,High decibel industrial generator running in quiet residential zone of Koregaon Park Lane 5.,General Administration,Noise Pollution,Angry,HIGH,Koregaon Park Lane 5,0,500,3,12,HIGH,3.1
+321,Street light near Senapati Bapat Road has been off for 11 days and it is becoming unsafe at night.,Electricity,Street Light,Concerned,HIGH,Senapati Bapat Road,1,50,12,11,CRITICAL,0.6
+322,"No electricity in Swargate Bus Stand since yesterday evening, frequent power outages occurring.",Electricity,Power Outage,Negative,HIGH,Swargate Bus Stand,0,50,0,13,MEDIUM,1.9
+323,"URGENT: Sparks coming out of the transformer near Kothrud Depot, danger of fire explosion!",Electricity,Transformer,Angry,CRITICAL,Kothrud Depot,1,25,8,12,CRITICAL,0.7
+324,Electric pole near Baner Chowk is tilted and hanging over pedestrian sidewalk dangerously.,Electricity,Damaged Pole,Concerned,CRITICAL,Baner Chowk,1,100,5,6,CRITICAL,0.7
+325,Loose electric wires dangling from pole near Swargate Bus Stand children are playing nearby.,Electricity,Wiring,Angry,CRITICAL,Swargate Bus Stand,1,500,5,12,CRITICAL,0.6
+326,URGENT: Voltage fluctuation in Senapati Bapat Road is damaging home appliances like refrigerators and ACs.,Electricity,Low Voltage,Negative,MEDIUM,Senapati Bapat Road,0,100,0,8,MEDIUM,1.8
+327,High mast light at City Hospital junction is not functioning causing total darkness.,Electricity,Street Light,Concerned,HIGH,City Hospital,1,500,2,14,CRITICAL,0.6
+328,Repeated power cut every afternoon in Shivajinagar Station for the past week. Kindly look into this promptly.,Electricity,Power Outage,Negative,MEDIUM,Shivajinagar Station,0,250,12,1,HIGH,1.5
+329,"Streetlight pole rusted completely at the base near Wakad Bridge, might fall in wind. Kindly look into this promptly.",Electricity,Damaged Pole,Concerned,HIGH,Wakad Bridge,1,250,3,1,CRITICAL,0.9
+330,Open electric meter box on the pavement near Hadapsar Flyover posing shock hazard.,Electricity,Wiring,Angry,CRITICAL,Hadapsar Flyover,1,12,0,1,CRITICAL,1.2
+331,"No water supply in Karve Nagar for the last 3 days, residents are struggling.",Water,No Water Supply,Angry,HIGH,Karve Nagar,0,25,3,3,MEDIUM,2.6
+332,"Huge underground water pipe burst near City Hospital, thousands of liters wasted.",Water,Leakage,Concerned,HIGH,City Hospital,0,250,2,6,HIGH,1.6
+333,"Tap water smells like sewage and looks muddy near City Hospital, health hazard! Kindly look into this promptly.",Water,Contamination,Angry,CRITICAL,City Hospital,1,50,8,11,CRITICAL,1.1
+334,"Extremely low water pressure in Swargate Bus Stand, water cannot reach first floor tanks. Kindly look into this promptly.",Water,Low Pressure,Negative,MEDIUM,Swargate Bus Stand,0,500,8,1,HIGH,1.9
+335,Main drinking water pipeline cracked during road work near FC Road.,Water,Pipeline Broken,Concerned,HIGH,FC Road,0,5,2,10,MEDIUM,2.2
+336,Drinking water is yellowish and contaminated with dirt in Deccan Gymkhana area.,Water,Contamination,Angry,CRITICAL,Deccan Gymkhana,1,25,0,8,CRITICAL,0.9
+337,Drinking water valve leaking constantly near FC Road creating muddy puddle.,Water,Leakage,Neutral,LOW,FC Road,0,250,8,1,MEDIUM,2.7
+338,Water supply cut off without any prior notice to residents near Hadapsar Flyover.,Water,No Water Supply,Negative,MEDIUM,Hadapsar Flyover,0,250,5,3,HIGH,1.7
+339,"Sewage line mixing into drinking water supply near Shivajinagar Station, please test water urgently.",Water,Contamination,Angry,CRITICAL,Shivajinagar Station,1,25,0,13,CRITICAL,0.9
+340,URGENT: Water tanker not arriving at scheduled time in Kothrud Depot.,Water,No Water Supply,Negative,LOW,Kothrud Depot,0,100,8,14,MEDIUM,2.8
+341,Deep pothole near FC Road is causing severe bike accidents and vehicle damage.,Roads,Pothole,Concerned,HIGH,FC Road,1,12,5,1,CRITICAL,2.7
+342,URGENT: Entire road stretch near Aundh Circle has broken asphalt and stones scattered everywhere.,Roads,Road Damage,Negative,MEDIUM,Aundh Circle,0,100,8,7,HIGH,3.7
+343,Fallen tree branch blocking two lanes of traffic near Koregaon Park Lane 5. Kindly look into this promptly.,Roads,Road Blockage,Concerned,HIGH,Koregaon Park Lane 5,1,12,8,5,CRITICAL,2.9
+344,Missing manhole cover on the road near Shivajinagar Station is an open death trap for motorists. Kindly look into this promptly.,Roads,Manhole Cover,Angry,CRITICAL,Shivajinagar Station,1,25,12,12,CRITICAL,2.6
+345,URGENT: Illegal unmarked speed breaker near Hinjewadi Phase 1 causes heavy scraping and injuries.,Roads,Speed Breaker,Negative,MEDIUM,Hinjewadi Phase 1,0,12,8,2,MEDIUM,5.4
+346,Please resolve: huge crater on road after recent rainfall near senapati bapat road causing traffic jam.,Roads,Pothole,Concerned,HIGH,Senapati Bapat Road,1,25,0,9,HIGH,4.1
+347,"Road resurfacing left incomplete near FC Road, gravel flying onto pedestrians.",Roads,Road Damage,Negative,MEDIUM,FC Road,0,5,2,14,MEDIUM,5.5
+348,Please resolve: open trench dug by telecom company left unfilled on model colony park road for 2 weeks.,Roads,Road Damage,Angry,HIGH,Model Colony Park,1,25,3,11,CRITICAL,2.7
+349,Potholes near City Hospital school are dangerous for children crossing.,Roads,Pothole,Concerned,HIGH,City Hospital,1,5,5,3,CRITICAL,2.5
+350,"Road caved in near Kothrud Depot bridge approach, barrier needed immediately.",Roads,Road Damage,Angry,CRITICAL,Kothrud Depot,1,5,1,12,CRITICAL,2.5
+351,"Garbage not picked up for 4 days near Aundh Circle, terrible stench spreading everywhere.",Sanitation,Garbage Accumulation,Angry,HIGH,Aundh Circle,0,50,5,6,HIGH,1.0
+352,Community dustbin overflowing with waste near Koregaon Park Lane 5 and stray cattle feeding on plastic.,Sanitation,Overflowing Bin,Negative,MEDIUM,Koregaon Park Lane 5,0,50,5,3,MEDIUM,1.2
+353,"Dead dog lying on the road corner near Aundh Circle, please remove immediately for hygiene.",Sanitation,Dead Animal,Concerned,HIGH,Aundh Circle,1,100,2,6,CRITICAL,0.6
+354,Illegal open dumping of commercial construction waste near Hinjewadi Phase 1 park.,Sanitation,Open Dumping,Negative,MEDIUM,Hinjewadi Phase 1,0,12,1,14,MEDIUM,1.6
+355,Street sweeping not done for over a week near Senapati Bapat Road residential lane.,Sanitation,Sweeping,Negative,LOW,Senapati Bapat Road,0,50,3,1,LOW,2.1
+356,Rotting food waste dumped outside market near City Hospital attracting flies and mosquitoes.,Sanitation,Garbage Accumulation,Angry,HIGH,City Hospital,1,12,3,14,CRITICAL,0.5
+357,Sanitation workers burnt trash near Shivajinagar Station releasing toxic plastic fumes.,Sanitation,Open Dumping,Angry,HIGH,Shivajinagar Station,1,100,12,12,CRITICAL,0.8
+358,Garbage bin broken and overturned near Senapati Bapat Road bus stop.,Sanitation,Overflowing Bin,Neutral,LOW,Senapati Bapat Road,0,5,5,9,MEDIUM,1.6
+359,Please resolve: accumulated garbage blocking pedestrian walkway near senapati bapat road.,Sanitation,Garbage Accumulation,Negative,MEDIUM,Senapati Bapat Road,0,500,2,10,HIGH,1.2
+360,Please resolve: dead animal decomposing in roadside gutter near jm road unbearable foul smell.,Sanitation,Dead Animal,Angry,CRITICAL,JM Road,1,250,8,3,CRITICAL,1.1
+361,Please resolve: sewage water overflowing from drain onto main street near fc road.,Drainage,Drainage Overflow,Angry,HIGH,FC Road,1,25,2,13,CRITICAL,1.5
+362,Stormwater drain completely choked with plastic bottles near Karve Nagar.,Drainage,Blocked Gutter,Concerned,MEDIUM,Karve Nagar,0,50,12,9,HIGH,2.5
+363,"Waterlogging and flooding on road near Deccan Gymkhana after moderate rain, knee-deep water. Kindly look into this promptly.",Drainage,Stormwater Flooding,Angry,HIGH,Deccan Gymkhana,1,5,3,12,CRITICAL,1.4
+364,Black stagnant sewage water standing in open ditch near City Hospital breeding mosquitoes.,Drainage,Sewage Stagnation,Negative,MEDIUM,City Hospital,1,25,12,2,HIGH,2.5
+365,Please resolve: underground sewer line choked and backflowing into ground floor residences near karve nagar.,Drainage,Drainage Overflow,Angry,CRITICAL,Karve Nagar,1,250,12,8,CRITICAL,1.4
+366,"Please resolve: drain grate missing near hadapsar flyover, people could step into the gutter at night.",Drainage,Blocked Gutter,Concerned,HIGH,Hadapsar Flyover,1,500,5,1,CRITICAL,1.6
+367,Rainwater entering shops near Model Colony Park because roadside culvert is blocked.,Drainage,Stormwater Flooding,Angry,HIGH,Model Colony Park,0,100,8,12,HIGH,2.6
+368,Foul sewer smell coming from uncleaned drainage channel near Kothrud Depot.,Drainage,Sewage Stagnation,Negative,LOW,Kothrud Depot,0,50,8,13,MEDIUM,2.6
+369,Drain cleaning vehicle dumped sludge on roadside near Koregaon Park Lane 5 and left without clearing. Kindly look into this promptly.,Drainage,Sewage Stagnation,Negative,MEDIUM,Koregaon Park Lane 5,0,12,2,4,MEDIUM,2.8
+370,URGENT: Open stormwater nullah overflowing into neighborhood near City Hospital.,Drainage,Drainage Overflow,Angry,CRITICAL,City Hospital,1,500,1,10,CRITICAL,1.4
+371,URGENT: Traffic signal light stuck on red in all 4 directions near Baner Chowk chowk.,Traffic,Signal Malfunction,Angry,HIGH,Baner Chowk,1,250,12,8,CRITICAL,1.1
+372,Commercial trucks parked illegally on both sides of FC Road narrowing the road.,Traffic,Illegal Parking,Negative,MEDIUM,FC Road,0,25,12,10,MEDIUM,2.3
+373,Severe traffic jam at Hadapsar Flyover junction due to faulty timer on traffic signal.,Traffic,Traffic Congestion,Negative,MEDIUM,Hadapsar Flyover,0,12,3,10,MEDIUM,1.9
+374,URGENT: Pedestrian crossing sign damaged and turned upside down near JM Road.,Traffic,Signage,Neutral,LOW,JM Road,0,50,8,12,MEDIUM,2.2
+375,Roadside vendors encroaching onto roadway near Deccan Gymkhana station causing bottlenecks.,Traffic,Encroachment,Negative,MEDIUM,Deccan Gymkhana,0,250,1,7,MEDIUM,2.2
+376,URGENT: Blinkers not functioning at blind curve near Swargate Bus Stand risk of high-speed collision.,Traffic,Signal Malfunction,Concerned,HIGH,Swargate Bus Stand,1,25,12,5,CRITICAL,1.2
+377,Auto-rickshaws blocking bus bay near JM Road creating traffic deadlock.,Traffic,Illegal Parking,Negative,LOW,JM Road,0,100,12,1,MEDIUM,2.1
+378,"No one-way signage near Swargate Bus Stand, vehicles driving wrong way creating danger.",Traffic,Signage,Concerned,HIGH,Swargate Bus Stand,1,100,0,7,CRITICAL,1.3
+379,URGENT: Traffic light pole hit by car and tilted precariously near Kothrud Depot.,Traffic,Signal Malfunction,Concerned,HIGH,Kothrud Depot,1,12,3,5,CRITICAL,0.8
+380,Extreme gridlock near Viman Nagar Square flyover during peak office rush hour.,Traffic,Traffic Congestion,Negative,MEDIUM,Viman Nagar Square,0,5,0,10,MEDIUM,2.0
+381,Pack of aggressive stray dogs chasing two-wheelers and biting pedestrians near Senapati Bapat Road.,Public Safety,Stray Animals,Angry,CRITICAL,Senapati Bapat Road,1,500,12,14,CRITICAL,0.6
+382,Dilapidated balcony of abandoned building near Camp MG Road is crumbling onto sidewalk.,Public Safety,Unsafe Structure,Concerned,CRITICAL,Camp MG Road,1,500,0,2,CRITICAL,0.6
+383,Large banyan tree branch cracked and leaning dangerously over JM Road school.,Public Safety,Fallen Tree,Concerned,CRITICAL,JM Road,1,500,2,14,CRITICAL,0.5
+384,Deep uncovered excavation pit without barricades or warning lamps near Deccan Gymkhana.,Public Safety,Open Trench,Angry,CRITICAL,Deccan Gymkhana,1,12,1,12,CRITICAL,0.8
+385,URGENT: Children playground equipment broken with sharp rusted metal edges in Baner Chowk park.,Public Safety,Hazard,Concerned,HIGH,Baner Chowk,1,25,3,13,CRITICAL,0.7
+386,Stray dog menace outside hospital near Model Colony Park patients and attendants scared.,Public Safety,Stray Animals,Concerned,HIGH,Model Colony Park,1,500,0,6,CRITICAL,0.5
+387,"Old boundary wall leaning toward road near Camp MG Road, risk of collapse.",Public Safety,Unsafe Structure,Concerned,HIGH,Camp MG Road,1,500,1,1,CRITICAL,0.5
+388,Dry tree caught fire near FC Road power cables.,Public Safety,Hazard,Angry,CRITICAL,FC Road,1,12,3,14,CRITICAL,0.7
+389,URGENT: Rabid animal spotted roaming near Aundh Circle market square.,Public Safety,Stray Animals,Angry,CRITICAL,Aundh Circle,1,500,0,8,CRITICAL,0.5
+390,Open construction scaffolding collapsing onto street near Hinjewadi Phase 1.,Public Safety,Unsafe Structure,Angry,CRITICAL,Hinjewadi Phase 1,1,25,0,12,CRITICAL,0.9
+391,Loud commercial loudspeakers playing past midnight near City Hospital residential area.,General Administration,Noise Pollution,Angry,MEDIUM,City Hospital,0,500,0,12,MEDIUM,4.4
+392,Public park walking track damaged and benches broken near Aundh Circle.,General Administration,Park Maintenance,Neutral,LOW,Aundh Circle,0,25,3,4,LOW,5.1
+393,Public toilet locked and out of service near Deccan Gymkhana market.,General Administration,Civic Facility,Negative,MEDIUM,Deccan Gymkhana,0,250,0,3,MEDIUM,3.8
+394,URGENT: Illegal billboard erected without permission blocking view near Viman Nagar Square.,General Administration,Public Nuisance,Neutral,LOW,Viman Nagar Square,0,500,1,1,MEDIUM,4.2
+395,Construction work operating heavy drilling machines at 2 AM near Wakad Bridge hospital.,General Administration,Noise Pollution,Angry,HIGH,Wakad Bridge,1,250,3,7,CRITICAL,1.8
+396,Drinking water fountain in municipal park near Hinjewadi Phase 1 is broken and dry.,General Administration,Civic Facility,Neutral,LOW,Hinjewadi Phase 1,0,250,1,2,MEDIUM,3.8
+397,Open smoking and anti-social gathering in abandoned booth near Hadapsar Flyover.,General Administration,Public Nuisance,Concerned,MEDIUM,Hadapsar Flyover,0,250,0,12,MEDIUM,3.8
+398,URGENT: Community hall booking system not working at Swargate Bus Stand ward office.,General Administration,Civic Facility,Neutral,LOW,Swargate Bus Stand,0,12,12,2,MEDIUM,3.8
+399,URGENT: Overgrown bushes encroaching sidewalk near FC Road public library.,General Administration,Park Maintenance,Neutral,LOW,FC Road,0,500,8,14,HIGH,3.3
+400,Please resolve: high decibel industrial generator running in quiet residential zone of swargate bus stand.,General Administration,Noise Pollution,Angry,HIGH,Swargate Bus Stand,0,500,0,2,MEDIUM,3.9
+401,URGENT: Street light near JM Road has been off for 5 days and it is becoming unsafe at night.,Electricity,Street Light,Concerned,HIGH,JM Road,1,500,1,5,CRITICAL,1.0
+402,"Please resolve: no electricity in shivajinagar station since yesterday evening, frequent power outages occurring.",Electricity,Power Outage,Negative,HIGH,Shivajinagar Station,0,250,1,2,HIGH,1.3
+403,"Sparks coming out of the transformer near Baner Chowk, danger of fire explosion!",Electricity,Transformer,Angry,CRITICAL,Baner Chowk,1,50,2,11,CRITICAL,0.6
+404,Electric pole near Central Market is tilted and hanging over pedestrian sidewalk dangerously.,Electricity,Damaged Pole,Concerned,CRITICAL,Central Market,1,50,5,3,CRITICAL,1.1
+405,Loose electric wires dangling from pole near Kothrud Depot children are playing nearby.,Electricity,Wiring,Angry,CRITICAL,Kothrud Depot,1,250,3,5,CRITICAL,1.1
+406,Voltage fluctuation in Wakad Bridge is damaging home appliances like refrigerators and ACs.,Electricity,Low Voltage,Negative,MEDIUM,Wakad Bridge,0,100,2,14,MEDIUM,2.0
+407,URGENT: High mast light at Hadapsar Flyover junction is not functioning causing total darkness.,Electricity,Street Light,Concerned,HIGH,Hadapsar Flyover,1,500,2,11,CRITICAL,0.9
+408,Repeated power cut every afternoon in Central Market for the past week.,Electricity,Power Outage,Negative,MEDIUM,Central Market,0,5,5,4,MEDIUM,2.1
+409,"Streetlight pole rusted completely at the base near Shivajinagar Station, might fall in wind.",Electricity,Damaged Pole,Concerned,HIGH,Shivajinagar Station,1,250,1,7,CRITICAL,1.1
+410,Please resolve: open electric meter box on the pavement near city hospital posing shock hazard.,Electricity,Wiring,Angry,CRITICAL,City Hospital,1,12,0,1,CRITICAL,1.2
+411,"No water supply in Aundh Circle for the last 3 days, residents are struggling.",Water,No Water Supply,Angry,HIGH,Aundh Circle,0,50,8,9,HIGH,1.5
+412,"Huge underground water pipe burst near Senapati Bapat Road, thousands of liters wasted.",Water,Leakage,Concerned,HIGH,Senapati Bapat Road,0,100,2,9,HIGH,2.2
+413,"Tap water smells like sewage and looks muddy near Shivajinagar Station, health hazard!",Water,Contamination,Angry,CRITICAL,Shivajinagar Station,1,250,0,9,CRITICAL,1.0
+414,"Extremely low water pressure in Camp MG Road, water cannot reach first floor tanks.",Water,Low Pressure,Negative,MEDIUM,Camp MG Road,0,50,0,12,MEDIUM,2.4
+415,Main drinking water pipeline cracked during road work near Koregaon Park Lane 5.,Water,Pipeline Broken,Concerned,HIGH,Koregaon Park Lane 5,0,5,0,1,MEDIUM,2.6
+416,Drinking water is yellowish and contaminated with dirt in Wakad Bridge area.,Water,Contamination,Angry,CRITICAL,Wakad Bridge,1,500,3,3,CRITICAL,0.9
+417,Drinking water valve leaking constantly near Shivajinagar Station creating muddy puddle.,Water,Leakage,Neutral,LOW,Shivajinagar Station,0,500,0,12,MEDIUM,2.3
+418,Water supply cut off without any prior notice to residents near Camp MG Road.,Water,No Water Supply,Negative,MEDIUM,Camp MG Road,0,250,0,5,MEDIUM,2.4
+419,"URGENT: Sewage line mixing into drinking water supply near Karve Nagar, please test water urgently.",Water,Contamination,Angry,CRITICAL,Karve Nagar,1,500,1,6,CRITICAL,1.1
+420,URGENT: Water tanker not arriving at scheduled time in Hinjewadi Phase 1.,Water,No Water Supply,Negative,LOW,Hinjewadi Phase 1,0,100,0,13,MEDIUM,2.2
+421,URGENT: Deep pothole near Karve Nagar is causing severe bike accidents and vehicle damage.,Roads,Pothole,Concerned,HIGH,Karve Nagar,1,500,0,1,CRITICAL,2.5
+422,Entire road stretch near Swargate Bus Stand has broken asphalt and stones scattered everywhere.,Roads,Road Damage,Negative,MEDIUM,Swargate Bus Stand,0,500,0,6,MEDIUM,5.4
+423,Fallen tree branch blocking two lanes of traffic near Camp MG Road.,Roads,Road Blockage,Concerned,HIGH,Camp MG Road,1,25,0,4,HIGH,4.1
+424,Please resolve: missing manhole cover on the road near central market is an open death trap for motorists.,Roads,Manhole Cover,Angry,CRITICAL,Central Market,1,12,0,9,CRITICAL,3.1
+425,Illegal unmarked speed breaker near City Hospital causes heavy scraping and injuries.,Roads,Speed Breaker,Negative,MEDIUM,City Hospital,0,5,12,8,MEDIUM,5.0
+426,Huge crater on road after recent rainfall near Baner Chowk causing traffic jam.,Roads,Pothole,Concerned,HIGH,Baner Chowk,1,50,5,5,CRITICAL,2.8
+427,"Road resurfacing left incomplete near Swargate Bus Stand, gravel flying onto pedestrians.",Roads,Road Damage,Negative,MEDIUM,Swargate Bus Stand,0,500,2,13,HIGH,3.8
+428,Open trench dug by telecom company left unfilled on Camp MG Road road for 2 weeks.,Roads,Road Damage,Angry,HIGH,Camp MG Road,1,5,5,1,CRITICAL,2.3
+429,Potholes near Aundh Circle school are dangerous for children crossing.,Roads,Pothole,Concerned,HIGH,Aundh Circle,1,12,8,14,CRITICAL,2.7
+430,"Please resolve: road caved in near college road bridge approach, barrier needed immediately.",Roads,Road Damage,Angry,CRITICAL,College Road,1,12,8,3,CRITICAL,2.9
+431,"Please resolve: garbage not picked up for 4 days near jm road, terrible stench spreading everywhere.",Sanitation,Garbage Accumulation,Angry,HIGH,JM Road,0,5,1,8,MEDIUM,1.5
+432,Please resolve: community dustbin overflowing with waste near aundh circle and stray cattle feeding on plastic.,Sanitation,Overflowing Bin,Negative,MEDIUM,Aundh Circle,0,250,1,2,MEDIUM,1.2
+433,"Dead dog lying on the road corner near Hinjewadi Phase 1, please remove immediately for hygiene.",Sanitation,Dead Animal,Concerned,HIGH,Hinjewadi Phase 1,1,250,5,14,CRITICAL,0.6
+434,URGENT: Illegal open dumping of commercial construction waste near Hinjewadi Phase 1 park.,Sanitation,Open Dumping,Negative,MEDIUM,Hinjewadi Phase 1,0,12,1,4,MEDIUM,1.7
+435,URGENT: Street sweeping not done for over a week near Deccan Gymkhana residential lane.,Sanitation,Sweeping,Negative,LOW,Deccan Gymkhana,0,12,12,2,MEDIUM,1.4
+436,Rotting food waste dumped outside market near Camp MG Road attracting flies and mosquitoes.,Sanitation,Garbage Accumulation,Angry,HIGH,Camp MG Road,1,25,12,2,CRITICAL,0.5
+437,URGENT: Sanitation workers burnt trash near Central Market releasing toxic plastic fumes.,Sanitation,Open Dumping,Angry,HIGH,Central Market,1,250,3,2,CRITICAL,1.0
+438,Garbage bin broken and overturned near Koregaon Park Lane 5 bus stop.,Sanitation,Overflowing Bin,Neutral,LOW,Koregaon Park Lane 5,0,250,2,1,MEDIUM,1.8
+439,URGENT: Accumulated garbage blocking pedestrian walkway near Aundh Circle.,Sanitation,Garbage Accumulation,Negative,MEDIUM,Aundh Circle,0,25,3,9,MEDIUM,1.7
+440,Dead animal decomposing in roadside gutter near Model Colony Park unbearable foul smell.,Sanitation,Dead Animal,Angry,CRITICAL,Model Colony Park,1,100,2,1,CRITICAL,0.5
+441,Please resolve: sewage water overflowing from drain onto main street near central market.,Drainage,Drainage Overflow,Angry,HIGH,Central Market,1,5,2,13,CRITICAL,1.2
+442,Stormwater drain completely choked with plastic bottles near Aundh Circle. Kindly look into this promptly.,Drainage,Blocked Gutter,Concerned,MEDIUM,Aundh Circle,0,100,3,6,MEDIUM,3.3
+443,"Waterlogging and flooding on road near City Hospital after moderate rain, knee-deep water.",Drainage,Stormwater Flooding,Angry,HIGH,City Hospital,1,500,1,1,CRITICAL,1.2
+444,URGENT: Black stagnant sewage water standing in open ditch near FC Road breeding mosquitoes.,Drainage,Sewage Stagnation,Negative,MEDIUM,FC Road,1,50,0,2,HIGH,2.0
+445,Underground sewer line choked and backflowing into ground floor residences near Deccan Gymkhana. Kindly look into this promptly.,Drainage,Drainage Overflow,Angry,CRITICAL,Deccan Gymkhana,1,250,8,7,CRITICAL,1.2
+446,"Drain grate missing near Baner Chowk, people could step into the gutter at night.",Drainage,Blocked Gutter,Concerned,HIGH,Baner Chowk,1,100,2,3,CRITICAL,1.6
+447,Rainwater entering shops near Swargate Bus Stand because roadside culvert is blocked. Kindly look into this promptly.,Drainage,Stormwater Flooding,Angry,HIGH,Swargate Bus Stand,0,50,1,7,MEDIUM,2.9
+448,Foul sewer smell coming from uncleaned drainage channel near Karve Nagar.,Drainage,Sewage Stagnation,Negative,LOW,Karve Nagar,0,50,5,4,MEDIUM,3.0
+449,Drain cleaning vehicle dumped sludge on roadside near Swargate Bus Stand and left without clearing.,Drainage,Sewage Stagnation,Negative,MEDIUM,Swargate Bus Stand,0,12,0,6,MEDIUM,2.9
+450,Open stormwater nullah overflowing into neighborhood near Kothrud Depot. Kindly look into this promptly.,Drainage,Drainage Overflow,Angry,CRITICAL,Kothrud Depot,1,50,5,1,CRITICAL,1.7
+451,URGENT: Traffic signal light stuck on red in all 4 directions near Kothrud Depot chowk.,Traffic,Signal Malfunction,Angry,HIGH,Kothrud Depot,1,250,2,3,CRITICAL,0.9
+452,Commercial trucks parked illegally on both sides of College Road narrowing the road.,Traffic,Illegal Parking,Negative,MEDIUM,College Road,0,500,8,13,HIGH,1.5
+453,Severe traffic jam at Model Colony Park junction due to faulty timer on traffic signal.,Traffic,Traffic Congestion,Negative,MEDIUM,Model Colony Park,0,25,0,3,LOW,2.9
+454,Pedestrian crossing sign damaged and turned upside down near JM Road.,Traffic,Signage,Neutral,LOW,JM Road,0,500,12,10,HIGH,1.7
+455,URGENT: Roadside vendors encroaching onto roadway near Model Colony Park station causing bottlenecks.,Traffic,Encroachment,Negative,MEDIUM,Model Colony Park,0,5,2,8,MEDIUM,2.2
+456,Blinkers not functioning at blind curve near Wakad Bridge risk of high-speed collision.,Traffic,Signal Malfunction,Concerned,HIGH,Wakad Bridge,1,500,1,9,CRITICAL,1.0
+457,Auto-rickshaws blocking bus bay near Model Colony Park creating traffic deadlock. Kindly look into this promptly.,Traffic,Illegal Parking,Negative,LOW,Model Colony Park,0,100,1,13,MEDIUM,2.4
+458,"Please resolve: no one-way signage near karve nagar, vehicles driving wrong way creating danger.",Traffic,Signage,Concerned,HIGH,Karve Nagar,1,250,8,14,CRITICAL,1.1
+459,Traffic light pole hit by car and tilted precariously near FC Road.,Traffic,Signal Malfunction,Concerned,HIGH,FC Road,1,50,12,5,CRITICAL,1.2
+460,Extreme gridlock near Model Colony Park flyover during peak office rush hour.,Traffic,Traffic Congestion,Negative,MEDIUM,Model Colony Park,0,500,5,12,HIGH,1.4
+461,URGENT: Pack of aggressive stray dogs chasing two-wheelers and biting pedestrians near Deccan Gymkhana.,Public Safety,Stray Animals,Angry,CRITICAL,Deccan Gymkhana,1,25,3,14,CRITICAL,0.5
+462,Dilapidated balcony of abandoned building near Wakad Bridge is crumbling onto sidewalk.,Public Safety,Unsafe Structure,Concerned,CRITICAL,Wakad Bridge,1,100,0,12,CRITICAL,0.5
+463,Large banyan tree branch cracked and leaning dangerously over FC Road school.,Public Safety,Fallen Tree,Concerned,CRITICAL,FC Road,1,50,1,13,CRITICAL,0.5
+464,Deep uncovered excavation pit without barricades or warning lamps near City Hospital.,Public Safety,Open Trench,Angry,CRITICAL,City Hospital,1,5,5,4,CRITICAL,0.6
+465,Please resolve: children playground equipment broken with sharp rusted metal edges in hinjewadi phase 1 park.,Public Safety,Hazard,Concerned,HIGH,Hinjewadi Phase 1,1,25,0,4,HIGH,1.1
+466,Stray dog menace outside hospital near College Road patients and attendants scared.,Public Safety,Stray Animals,Concerned,HIGH,College Road,1,50,12,7,CRITICAL,0.9
+467,"Old boundary wall leaning toward road near JM Road, risk of collapse.",Public Safety,Unsafe Structure,Concerned,HIGH,JM Road,1,100,2,9,CRITICAL,0.5
+468,Dry tree caught fire near City Hospital power cables.,Public Safety,Hazard,Angry,CRITICAL,City Hospital,1,5,0,13,CRITICAL,0.5
+469,Rabid animal spotted roaming near Aundh Circle market square.,Public Safety,Stray Animals,Angry,CRITICAL,Aundh Circle,1,5,5,3,CRITICAL,0.7
+470,Open construction scaffolding collapsing onto street near Koregaon Park Lane 5.,Public Safety,Unsafe Structure,Angry,CRITICAL,Koregaon Park Lane 5,1,100,8,8,CRITICAL,0.5
+471,Loud commercial loudspeakers playing past midnight near Central Market residential area.,General Administration,Noise Pollution,Angry,MEDIUM,Central Market,0,250,3,6,HIGH,3.3
+472,URGENT: Public park walking track damaged and benches broken near Hadapsar Flyover.,General Administration,Park Maintenance,Neutral,LOW,Hadapsar Flyover,0,50,12,4,MEDIUM,3.9
+473,Public toilet locked and out of service near JM Road market.,General Administration,Civic Facility,Negative,MEDIUM,JM Road,0,100,12,1,MEDIUM,4.0
+474,URGENT: Illegal billboard erected without permission blocking view near Wakad Bridge.,General Administration,Public Nuisance,Neutral,LOW,Wakad Bridge,0,25,0,4,LOW,5.2
+475,Construction work operating heavy drilling machines at 2 AM near Central Market hospital.,General Administration,Noise Pollution,Angry,HIGH,Central Market,1,25,0,5,HIGH,3.3
+476,Drinking water fountain in municipal park near Aundh Circle is broken and dry.,General Administration,Civic Facility,Neutral,LOW,Aundh Circle,0,5,3,3,LOW,5.2
+477,Open smoking and anti-social gathering in abandoned booth near Hinjewadi Phase 1.,General Administration,Public Nuisance,Concerned,MEDIUM,Hinjewadi Phase 1,0,250,0,4,MEDIUM,3.9
+478,Community hall booking system not working at JM Road ward office.,General Administration,Civic Facility,Neutral,LOW,JM Road,0,100,0,13,MEDIUM,4.5
+479,Overgrown bushes encroaching sidewalk near Karve Nagar public library.,General Administration,Park Maintenance,Neutral,LOW,Karve Nagar,0,100,2,7,MEDIUM,4.2
+480,High decibel industrial generator running in quiet residential zone of City Hospital.,General Administration,Noise Pollution,Angry,HIGH,City Hospital,0,100,1,7,HIGH,2.8
+481,Street light near Viman Nagar Square has been off for 3 days and it is becoming unsafe at night.,Electricity,Street Light,Concerned,HIGH,Viman Nagar Square,1,12,1,3,HIGH,1.0
+482,"No electricity in City Hospital since yesterday evening, frequent power outages occurring.",Electricity,Power Outage,Negative,HIGH,City Hospital,0,500,3,11,HIGH,1.2
+483,"Sparks coming out of the transformer near City Hospital, danger of fire explosion!",Electricity,Transformer,Angry,CRITICAL,City Hospital,1,25,12,2,CRITICAL,1.2
+484,Electric pole near Wakad Bridge is tilted and hanging over pedestrian sidewalk dangerously.,Electricity,Damaged Pole,Concerned,CRITICAL,Wakad Bridge,1,5,8,13,CRITICAL,0.6
+485,Loose electric wires dangling from pole near Deccan Gymkhana children are playing nearby.,Electricity,Wiring,Angry,CRITICAL,Deccan Gymkhana,1,5,0,10,CRITICAL,1.1
+486,Voltage fluctuation in Senapati Bapat Road is damaging home appliances like refrigerators and ACs.,Electricity,Low Voltage,Negative,MEDIUM,Senapati Bapat Road,0,100,12,6,HIGH,1.0
+487,URGENT: High mast light at Hinjewadi Phase 1 junction is not functioning causing total darkness.,Electricity,Street Light,Concerned,HIGH,Hinjewadi Phase 1,1,100,8,7,CRITICAL,0.5
+488,Repeated power cut every afternoon in FC Road for the past week.,Electricity,Power Outage,Negative,MEDIUM,FC Road,0,25,0,12,MEDIUM,1.7
+489,"Streetlight pole rusted completely at the base near Hadapsar Flyover, might fall in wind.",Electricity,Damaged Pole,Concerned,HIGH,Hadapsar Flyover,1,5,2,5,CRITICAL,0.6
+490,Open electric meter box on the pavement near Viman Nagar Square posing shock hazard.,Electricity,Wiring,Angry,CRITICAL,Viman Nagar Square,1,250,0,13,CRITICAL,0.7
+491,"No water supply in Baner Chowk for the last 3 days, residents are struggling.",Water,No Water Supply,Angry,HIGH,Baner Chowk,0,25,0,14,MEDIUM,2.4
+492,"Huge underground water pipe burst near Model Colony Park, thousands of liters wasted.",Water,Leakage,Concerned,HIGH,Model Colony Park,0,500,0,2,MEDIUM,2.1
+493,"URGENT: Tap water smells like sewage and looks muddy near Baner Chowk, health hazard!",Water,Contamination,Angry,CRITICAL,Baner Chowk,1,5,12,14,CRITICAL,0.8
+494,"URGENT: Extremely low water pressure in JM Road, water cannot reach first floor tanks.",Water,Low Pressure,Negative,MEDIUM,JM Road,0,25,12,12,MEDIUM,2.4
+495,URGENT: Main drinking water pipeline cracked during road work near Central Market.,Water,Pipeline Broken,Concerned,HIGH,Central Market,0,25,12,11,HIGH,1.9
+496,Drinking water is yellowish and contaminated with dirt in Model Colony Park area.,Water,Contamination,Angry,CRITICAL,Model Colony Park,1,500,3,14,CRITICAL,1.4
+497,URGENT: Drinking water valve leaking constantly near City Hospital creating muddy puddle.,Water,Leakage,Neutral,LOW,City Hospital,0,5,1,5,LOW,3.3
+498,Water supply cut off without any prior notice to residents near Baner Chowk.,Water,No Water Supply,Negative,MEDIUM,Baner Chowk,0,250,8,14,HIGH,1.8
+499,"Sewage line mixing into drinking water supply near Wakad Bridge, please test water urgently.",Water,Contamination,Angry,CRITICAL,Wakad Bridge,1,5,2,8,CRITICAL,1.0
+500,Water tanker not arriving at scheduled time in Hadapsar Flyover.,Water,No Water Supply,Negative,LOW,Hadapsar Flyover,0,50,5,12,MEDIUM,2.4
+501,Deep pothole near Baner Chowk is causing severe bike accidents and vehicle damage.,Roads,Pothole,Concerned,HIGH,Baner Chowk,1,100,0,8,CRITICAL,2.3
+502,Entire road stretch near JM Road has broken asphalt and stones scattered everywhere.,Roads,Road Damage,Negative,MEDIUM,JM Road,0,5,12,9,MEDIUM,5.1
+503,Fallen tree branch blocking two lanes of traffic near Hinjewadi Phase 1.,Roads,Road Blockage,Concerned,HIGH,Hinjewadi Phase 1,1,250,3,11,CRITICAL,2.5
+504,Please resolve: missing manhole cover on the road near karve nagar is an open death trap for motorists.,Roads,Manhole Cover,Angry,CRITICAL,Karve Nagar,1,500,8,13,CRITICAL,2.8
+505,URGENT: Illegal unmarked speed breaker near Shivajinagar Station causes heavy scraping and injuries.,Roads,Speed Breaker,Negative,MEDIUM,Shivajinagar Station,0,50,3,12,MEDIUM,5.2
+506,Please resolve: huge crater on road after recent rainfall near camp mg road causing traffic jam.,Roads,Pothole,Concerned,HIGH,Camp MG Road,1,250,2,7,CRITICAL,2.6
+507,"Road resurfacing left incomplete near Kothrud Depot, gravel flying onto pedestrians.",Roads,Road Damage,Negative,MEDIUM,Kothrud Depot,0,250,5,11,HIGH,4.1
+508,Open trench dug by telecom company left unfilled on Model Colony Park road for 2 weeks.,Roads,Road Damage,Angry,HIGH,Model Colony Park,1,50,1,14,CRITICAL,2.9
+509,Potholes near Senapati Bapat Road school are dangerous for children crossing.,Roads,Pothole,Concerned,HIGH,Senapati Bapat Road,1,250,0,13,CRITICAL,2.5
+510,"Road caved in near Kothrud Depot bridge approach, barrier needed immediately.",Roads,Road Damage,Angry,CRITICAL,Kothrud Depot,1,25,3,12,CRITICAL,2.8
+511,"URGENT: Garbage not picked up for 4 days near Viman Nagar Square, terrible stench spreading everywhere.",Sanitation,Garbage Accumulation,Angry,HIGH,Viman Nagar Square,0,5,0,14,MEDIUM,1.4
+512,URGENT: Community dustbin overflowing with waste near Baner Chowk and stray cattle feeding on plastic.,Sanitation,Overflowing Bin,Negative,MEDIUM,Baner Chowk,0,250,8,9,HIGH,1.1
+513,"Dead dog lying on the road corner near Camp MG Road, please remove immediately for hygiene.",Sanitation,Dead Animal,Concerned,HIGH,Camp MG Road,1,25,8,1,CRITICAL,1.1
+514,Illegal open dumping of commercial construction waste near Viman Nagar Square park.,Sanitation,Open Dumping,Negative,MEDIUM,Viman Nagar Square,0,50,5,3,MEDIUM,1.5
+515,Please resolve: street sweeping not done for over a week near model colony park residential lane.,Sanitation,Sweeping,Negative,LOW,Model Colony Park,0,25,2,6,LOW,2.0
+516,Rotting food waste dumped outside market near Model Colony Park attracting flies and mosquitoes.,Sanitation,Garbage Accumulation,Angry,HIGH,Model Colony Park,1,5,1,10,HIGH,1.2
+517,Sanitation workers burnt trash near Camp MG Road releasing toxic plastic fumes. Kindly look into this promptly.,Sanitation,Open Dumping,Angry,HIGH,Camp MG Road,1,100,2,7,CRITICAL,0.9
+518,Garbage bin broken and overturned near Wakad Bridge bus stop. Kindly look into this promptly.,Sanitation,Overflowing Bin,Neutral,LOW,Wakad Bridge,0,5,2,6,LOW,1.6
+519,URGENT: Accumulated garbage blocking pedestrian walkway near JM Road.,Sanitation,Garbage Accumulation,Negative,MEDIUM,JM Road,0,50,3,5,MEDIUM,1.2
+520,Dead animal decomposing in roadside gutter near College Road unbearable foul smell.,Sanitation,Dead Animal,Angry,CRITICAL,College Road,1,100,5,5,CRITICAL,0.7
