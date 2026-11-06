@@ -1,4 +1,4 @@
-﻿import os
+import os
 import bcrypt
 import jwt
 from datetime import datetime, timedelta
@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-JWT_SECRET = os.getenv("JWT_SECRET", "civicai_development_jwt_secret_key_32bytes_min!")
+JWT_SECRET = os.getenv("JWT_SECRET", "nagrikai_development_jwt_secret_key_32bytes_min!")
 JWT_ALGORITHM = os.getenv("JWT_ALGORITHM", "HS256")
 ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv("ACCESS_TOKEN_EXPIRE_MINUTES", "1440"))
 

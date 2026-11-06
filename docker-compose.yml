@@ -1,19 +1,19 @@
-﻿version: "3.8"
+version: "3.8"
 
 services:
   db:
     image: postgres:15-alpine
-    container_name: civicai-db
+    container_name: nagrikai-db
     environment:
-      POSTGRES_USER: civicai_user
-      POSTGRES_PASSWORD: civicai_password
-      POSTGRES_DB: civicai_db
+      POSTGRES_USER: ${POSTGRES_USER:-nagrikai_user}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-nagrikai_password}
+      POSTGRES_DB: ${POSTGRES_DB:-nagrikai_db}
     ports:
       - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U civicai_user -d civicai_db"]
+      test: ["CMD-SHELL", "pg_isready -U nagrikai_user -d nagrikai_db"]
       interval: 5s
       timeout: 5s
       retries: 5
@@ -22,10 +22,10 @@ services:
     build:
       context: .
       dockerfile: backend/Dockerfile
-    container_name: civicai-backend
+    container_name: nagrikai-backend
     environment:
-      - DATABASE_URL=postgresql://civicai_user:civicai_password@db:5432/civicai_db
-      - JWT_SECRET=civicai_super_secret_production_key_2026!
+      - DATABASE_URL=${DATABASE_URL:-postgresql://nagrikai_user:nagrikai_password@db:5432/nagrikai_db}
+      - JWT_SECRET=${JWT_SECRET:-nagrikai_development_jwt_secret_key_32bytes_min!}
       - LLM_PROVIDER=local
       - APP_ENV=production
     ports:
@@ -41,7 +41,7 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    container_name: civicai-frontend
+    container_name: nagrikai-frontend
     ports:
       - "3000:80"
     depends_on:
